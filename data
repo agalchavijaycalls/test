@@ -1,0 +1,179 @@
+{
+    "payrollObj": {
+        "id": 90,
+        "parentId": 89,
+        "repositoryId": 0,
+        "leaf": false,
+        "systemItem": false,
+        "locked": false,
+        "itemIndent": null,
+        "itemOrder": null,
+        "name": "ANNUAL_CTC",
+        "description": "ANNUAL CTC",
+        "salaryType": 3, // Income, deductio, other
+        "remarks": "",
+        "agent": 1, // agent info
+        "taxItemType": 0, // non tax related - dropdown
+        "exemptionItem": 0, // LTA convey - dropdwon
+        "itSection": null, // it secion
+        "allowOverride": false,
+        "carryForward": true,
+        "showInUI": true,
+        "reimbursementItem": false,
+        "taxItemTypeText": 0,
+        "itSectionText": null,
+        "exemptionItemText": 0,
+        "rawFormula": null, // formula
+        "advancedMode": null,
+        "taxProjectRequired": true,
+        "fullIncomeItem": "",
+        "ytdItem": "",
+        "inputItem": true,
+        "oneTime": false,
+        "salaryMaster": true,
+        "deleted": false,
+        "marked": false,
+        "changed": false,
+        "additionalInfo": null,
+        "softDeleted": false,
+        "_agentInfo": null,
+        "exemptionGroup": null,
+        "nonProratedItem": false,
+        "taxExemptionItem": null,
+        "form12BAMapping": 0
+    }
+}
+
+
+{
+    "agentData": {
+        "id": 12,
+        "item": {
+            "id": 90,
+            "repositoryId": 1,
+            "agentInfo": {
+                "id": 1,
+                "className": "FKPayroll2.HandEntryAgent",
+                "name": "Hand Entry Agent",
+                "optionUIId": "defaultAgentUI.json",
+                "optionUIData": "\\n{\\n\\titems:[{\\n\\t\\txtype: 'fieldset',\\n\\t\\tlabelWidth: 150,
+                \\n\\t\\tstyle: 'padding: 5px 10px 5px 10px',\\n\\t\\ttitle: 'Hand Entry value is',\\n\\t\\titems:
+                [{\\n\\t\\t\\txtype: 'radiogroup',\\n\\t\\t\\tgroupName: 'HANDENTRY_TYPE_OPTION',\\n\\t\\t\\tborder:
+                    false,\\n\\t\\t\\titems: [{\\n\\t\\t\\t\\tinputValue: 1,\\n\\t\\t\\t\\tboxLabel: 'Money',
+                \\n\\t\\t\\t\\tchecked: true\\n\\t\\t\\t},{\\n\\t\\t\\t\\tinputValue: 2,\\n\\t\\t\\t\\tboxLabel:
+                'Yes/No'\\n\\t\\t\\t}]\\n\\t\\t}]\\n\\t},{\\n\\t\\txtype: 'fieldset',\\n\\t\\tlabelWidth: 150,
+\\n\\t\\tstyle: 'padding: 5px 10px 5px 10px',\\n\\t\\ttitle: 'Mid Month Option',\\n\\t\\tborder: true,\\n\\t\\titems:
+[{\\n\\t\\t\\txtype: 'radiogroup',\\n\\t\\t\\tgroupName: 'HANDENTRY_MIDMONTH_TYPE',\\n\\t\\t\\tborder: false,
+\\n\\t\\t\\titems: [{\\n\\t\\t\\t\\tinputValue: 0,\\n\\t\\t\\t\\tboxLabel: 'Use Payroll From and To date as cutoff
+date',\\n\\t\\t\\t\\tchecked: true\\n\\t\\t\\t}, {\\n\\t\\t\\t\\tinputValue: 1,\\n\\t\\t\\t\\tboxLabel: 'Use the
+below cutoff days'\\n\\t\\t\\t}]\\n\\t\\t},{\\n\\t\\t\\txtype: 'panel-default',\\n\\t\\t\\tbodyStyle: 'padding: 0px',
+\\n\\t\\t\\tborder: false,\\n\\t\\t\\tlayout: 'table',\\n\\t\\t\\tlayoutConfig:{\\n\\t\\t\\t\\tcolumns:
+2\\n\\t\\t\\t},\\n\\t\\t\\titems:[{\\n\\t\\t\\t\\txtype: 'panel-default',\\n\\t\\t\\t\\tlayout: 'form',
+\\n\\t\\t\\t\\tlabelWidth: 70,\\n\\t\\t\\t\\twidth: 150,\\n\\t\\t\\t\\tborder : false,
+\\n\\t\\t\\t\\titems:[{\\n\\t\\t\\t\\t\\txtype: 'combo-default',\\n\\t\\t\\t\\t\\tname: 'HANDENTRY_FROMDATE',
+\\n\\t\\t\\t\\t\\tmaxHeight : 100,\\n\\t\\t\\t\\t\\twidth : 40,\\n\\t\\t\\t\\t\\tfieldLabel: 'From Day',
+\\n\\t\\t\\t\\t\\tstore : '@LIST>1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9,10:10,11:11,12:12,13:13,14:14,15:15,16:16,17:17,
+18:18,19:19,20:20,21:21,22:22,23:23,24:24,25:25,26:26,27:27,28:28,29:29,30:30,31:31'\\n\\t\\t\\t\\t}]\\n\\t\\t\\t},
+{\\n\\t\\t\\t\\txtype: 'panel-default',\\n\\t\\t\\t\\tlayout: 'form',\\n\\t\\t\\t\\tlabelWidth: 50,
+\\n\\t\\t\\t\\twidth: 150,\\n\\t\\t\\t\\tborder : false,\\n\\t\\t\\t\\titems:[{\\n\\t\\t\\t\\t\\txtype:
+'combo-default',\\n\\t\\t\\t\\t\\tname: 'HANDENTRY_TODATE',\\n\\t\\t\\t\\t\\tmaxHeight : 100,\\n\\t\\t\\t\\t\\twidth
+: 40,\\n\\t\\t\\t\\t\\tfieldLabel: 'To Day',\\n\\t\\t\\t\\t\\tstore : '@LIST>1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9,
+10:10,11:11,12:12,13:13,14:14,15:15,16:16,17:17,18:18,19:19,20:20,21:21,22:22,23:23,24:24,25:25,26:26,27:27,28:28,
+29:29,30:30,31:31'\\n\\t\\t\\t\\t}]\\n\\n\\t\\t\\t}]\\n\\t\\t},{\\n\\t\\t\\txtype: 'checkbox',\\n\\t\\t\\tname:
+'MID_MONTH_PROCESSING_ENABLED',\\n\\t\\t\\tboxLabel: 'Enable mid-month processing'\\n\\t\\t}]\\n\\t}]\\n} \\n",
+                "allowEdit": true,
+                "allowOverride": true,
+                "appId": 2,
+                "processingSequence": 4,
+                "doNotConsiderInTempProcess": false
+            },
+            "name": "ANNUAL_CTC",
+            "description": "ANNUAL CTC",
+            "itemIndent": 3,
+            "itemIndex": null,
+            "itemOrder": "/00002/00001/00002",
+            "systemItem": false,
+            "allowOverride": false,
+            "carryForward": true,
+            "fillType": 1,
+            "rawFormula": null,
+            "formula": null,
+            "processingSequence": 8,
+            "lookup": null,
+            "slabItemId": null,
+            "percentItemId": null,
+            "salaryType": 3,
+            "lookupValueType": 0,
+            "leaf": true,
+            "visible": true,
+            "advancedMode": null,
+            "taxType": 0,
+            "taxCategory": 0,
+            "mappingCode": "ANNUAL_CTC",
+            "doNotConsiderInTempProcess": false,
+            "nonProratedItem": false,
+            "additionalInfo": null,
+            "userId": null,
+            "locked": null,
+            "precedents": null,
+            "dependents": "24,89,91",
+            "upTree": "/24/89/",
+            "rank": "001",
+            "remarks": "",
+            "fullIncomeItem": "",
+            "arrearsItem": null,
+            "exemptionItem": 0,
+            "itSection": null,
+            "show": true,
+            "reimbursementItem": false,
+            "taxProjectRequired": true,
+            "helpText": "\\n\\t<div class=\\"
+            gts-repohelp-wrap
+            \
+            \
+            ">\\n\\t\\t<div class=\\"
+            close
+            \
+            \
+            ">\\n\\t\\t\\t<img src=\\"{
+    BLANK_IMAGE_URL
+}\\" alt=\\"Close\\" title=\\"Close\\" item=\\"90\\"/>\\n\\t\\t</div>\\n\\t\\t<div
+class=\\"gts-repohelp\\">\\n\\t\\t\\t<div style=\\"width: 95%\\">\\n\\t\\t\\t\\t<h1>ANNUAL
+CTC</h1>\\n\\t\\t\\t\\t<span class=\\"type\\"></span>\\n\\t\\t\\t</div>\\n\\t\\n\\t\\n\\t<div
+class=\\"actions\\">\\n\\t\\t<ul>\\n\\t\\t\\t\\t<li class=\\"edit\\"><a href=\\"#\\" onclick='Gts.ext.compansation
+.Utils.editSalaryComponent(90, \\"ANNUAL CTC\\")'>Edit</a></li>\\n\\t\\t\\t<li class=\\"history\\"><a href=\\"#\\"
+onclick='Gts.ext.compansation.Utils.showSalaryComponentHistory(90)'>History</a></li>\\n\\t\\t\\t\\t<li
+class=\\"override\\"><a href=\\"#\\" onclick='Gts.ext.compansation.Utils.overrideSalaryComponent(90, \\"ANNUAL
+CTC\\")'>Override</a></li>\\n\\t\\t</ul>\\n\\t</div>\\n\\n\\t<div class=\\"gts-repohelp-content\\">\\n\\t    You need
+to manually enter the values for this component (click the Edit link above). \\n\\t</div>\\n\\t<div
+class=\\"more-info\\">\\n\\t\\t<div class=\\"more-infoIcon more-infoShow\\" title=\\"Show more
+help\\"></div>\\n\\t\\t<div class=\\"more-info-content\\" style=\\"display: none\\">\\n\\t<p>Dependants: MONTHLY CTC,
+CTC ITEMS</p>\\n\\t\\t</div>\\n\\t</div>\\n\\n\\t\\t</div> <!--gts-repohelp-->\\n\\t</div>
+<!--gts-repohelp-wrap-->\\n", "ytdItem": "", "salaryMaster": true, "inputItem": true, "oneTime": false,
+"relatedParent": 0, "softDeleted": false, "modifiedDate": null, "exemptionGroup": null, "taxExemptionItem": null,
+"editable": true, "parentId": 89}, "agent": {"id": 1, "className": "FKPayroll2.HandEntryAgent", "name": "Hand Entry
+Agent", "optionUIId": "defaultAgentUI.json", "optionUIData": "\\n{\\n\\titems:[{\\n\\t\\txtype: 'fieldset',
+\\n\\t\\tlabelWidth: 150,\\n\\t\\tstyle: 'padding: 5px 10px 5px 10px',\\n\\t\\ttitle: 'Hand Entry value is',
+\\n\\t\\titems: [{\\n\\t\\t\\txtype: 'radiogroup',\\n\\t\\t\\tgroupName: 'HANDENTRY_TYPE_OPTION',\\n\\t\\t\\tborder:
+false,\\n\\t\\t\\titems: [{\\n\\t\\t\\t\\tinputValue: 1,\\n\\t\\t\\t\\tboxLabel: 'Money',\\n\\t\\t\\t\\tchecked:
+true\\n\\t\\t\\t},{\\n\\t\\t\\t\\tinputValue: 2,\\n\\t\\t\\t\\tboxLabel: 'Yes/No'\\n\\t\\t\\t}]\\n\\t\\t}]\\n\\t},
+{\\n\\t\\txtype: 'fieldset',\\n\\t\\tlabelWidth: 150,\\n\\t\\tstyle: 'padding: 5px 10px 5px 10px',\\n\\t\\ttitle:
+'Mid Month Option',\\n\\t\\tborder: true,\\n\\t\\titems: [{\\n\\t\\t\\txtype: 'radiogroup',\\n\\t\\t\\tgroupName:
+'HANDENTRY_MIDMONTH_TYPE',\\n\\t\\t\\tborder: false,\\n\\t\\t\\titems: [{\\n\\t\\t\\t\\tinputValue: 0,
+\\n\\t\\t\\t\\tboxLabel: 'Use Payroll From and To date as cutoff date',\\n\\t\\t\\t\\tchecked: true\\n\\t\\t\\t},
+{\\n\\t\\t\\t\\tinputValue: 1,\\n\\t\\t\\t\\tboxLabel: 'Use the below cutoff days'\\n\\t\\t\\t}]\\n\\t\\t},
+{\\n\\t\\t\\txtype: 'panel-default',\\n\\t\\t\\tbodyStyle: 'padding: 0px',\\n\\t\\t\\tborder: false,
+\\n\\t\\t\\tlayout: 'table',\\n\\t\\t\\tlayoutConfig:{\\n\\t\\t\\t\\tcolumns: 2\\n\\t\\t\\t},
+\\n\\t\\t\\titems:[{\\n\\t\\t\\t\\txtype: 'panel-default',\\n\\t\\t\\t\\tlayout: 'form',\\n\\t\\t\\t\\tlabelWidth:
+70,\\n\\t\\t\\t\\twidth: 150,\\n\\t\\t\\t\\tborder : false,\\n\\t\\t\\t\\titems:[{\\n\\t\\t\\t\\t\\txtype:
+'combo-default',\\n\\t\\t\\t\\t\\tname: 'HANDENTRY_FROMDATE',\\n\\t\\t\\t\\t\\tmaxHeight : 100,
+\\n\\t\\t\\t\\t\\twidth : 40,\\n\\t\\t\\t\\t\\tfieldLabel: 'From Day',\\n\\t\\t\\t\\t\\tstore : '@LIST>1:1,2:2,3:3,
+4:4,5:5,6:6,7:7,8:8,9:9,10:10,11:11,12:12,13:13,14:14,15:15,16:16,17:17,18:18,19:19,20:20,21:21,22:22,23:23,24:24,
+25:25,26:26,27:27,28:28,29:29,30:30,31:31'\\n\\t\\t\\t\\t}]\\n\\t\\t\\t}, {\\n\\t\\t\\t\\txtype: 'panel-default',
+\\n\\t\\t\\t\\tlayout: 'form',\\n\\t\\t\\t\\tlabelWidth: 50,\\n\\t\\t\\t\\twidth: 150,\\n\\t\\t\\t\\tborder : false,
+\\n\\t\\t\\t\\titems:[{\\n\\t\\t\\t\\t\\txtype: 'combo-default',\\n\\t\\t\\t\\t\\tname: 'HANDENTRY_TODATE',
+\\n\\t\\t\\t\\t\\tmaxHeight : 100,\\n\\t\\t\\t\\t\\twidth : 40,\\n\\t\\t\\t\\t\\tfieldLabel: 'To Day',\\n\\t\\t\\t\\t\\tstore : '@LIST>1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9,10:10,11:11,12:12,13:13,14:14,15:15,16:16,17:17,18:18,19:19,20:20,21:21,22:22,23:23,24:24,25:25,26:26,27:27,28:28,29:29,30:30,31:31'\\n\\t\\t\\t\\t}]\\n\\n\\t\\t\\t}]\\n\\t\\t},{\\n\\t\\t\\txtype: 'checkbox',\\n\\t\\t\\tname: 'MID_MONTH_PROCESSING_ENABLED',\\n\\t\\t\\tboxLabel: 'Enable mid-month processing'\\n\\t\\t}]\\n\\t}]\\n} \\n", "allowEdit": true, "allowOverride": true, "appId": 2, "processingSequence": 4, "doNotConsiderInTempProcess": false}, "values": "{\\"HANDENTRY_TYPE_OPTION\\":\\"1\\",\\"HANDENTRY_MIDMONTH_TYPE\\":\\"0\\",\\"HANDENTRY_FROMDATE\\":\\"\\",\\"HANDENTRY_TODATE\\":\\"\\",\\"dummyMID_MONTH_PROCESSING_ENABLED\\":\\"on\\",\\"MID_MONTH_PROCESSING_ENABLED\\":\\"on\\"}", "map": {"HANDENTRY_TYPE_OPTION": "1", "HANDENTRY_MIDMONTH_TYPE": "0", "HANDENTRY_FROMDATE": "", "HANDENTRY_TODATE": "", "dummyMID_MONTH_PROCESSING_ENABLED": "on", "MID_MONTH_PROCESSING_ENABLED": "on"
+}
+}
+}"
+}
