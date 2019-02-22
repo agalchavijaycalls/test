@@ -1,0 +1,4173 @@
+{
+    "topParent": [
+        {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "TOT_COST",
+            "description": "NET PAY",
+            "id": 8,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "CAL_FLDS",
+            "description": "CALCULATION FIELDS",
+            "id": 24,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "EMPLOYEEWORKDAYS",
+            "description": "EMPLOYEE WORKDAYS",
+            "id": 1,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }
+    ],
+    "exemptionTypes": [
+        {
+            "id": 6,
+            "description": "Books And Periodicals Exemption"
+        }, {
+            "id": 9,
+            "description": "Children Education Exemption"
+        }, {
+            "id": 8,
+            "description": "Driver Exemption"
+        }, {
+            "id": 5,
+            "description": "Food Exemption"
+        }, {
+            "id": 4,
+            "description": "Internet Exemption"
+        }, {
+            "id": 3,
+            "description": "Telephone Exemption"
+        }, {
+            "id": 7,
+            "description": "Vehicle Exemption"
+        }
+    ],
+    "exemptionItems": [
+        {
+            "id": 59,
+            "description": "LTA EXEMPT"
+        }, {
+            "id": 60,
+            "description": "CONVEYANCE EXEMPT"
+        }, {
+            "id": 58,
+            "description": "MEDICAL EXEMPT"
+        }, {
+            "id": 57,
+            "description": "EDUCATION EXEMPT"
+        }
+    ],
+    "allComponent": [
+        {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "ACC_INT",
+            "description": "ACCUMULATED INTERNET",
+            "id": 164,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "ACC_MEDICAL",
+            "description": "ACCUMULATED MEDICAL",
+            "id": 162,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "ACC_TEL",
+            "description": "ACCUMULATED TELEPHONE",
+            "id": 149,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": true,
+            "name": "ACCUMULATION_ITEMS",
+            "description": "ACCUMULATION RELATED ITEMS",
+            "id": 148,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "AGE",
+            "description": "AGE",
+            "id": 106,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "ANNUAL_CTC",
+            "description": "ANNUAL CTC",
+            "id": 90,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "ASSETRES_PERQ",
+            "description": "ASSETS IN RESIDENCE",
+            "id": 55,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "AVG10MNTH_BASIC",
+            "description": "AVERAGE 10 MONTH BASIC",
+            "id": 183,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "BASIC",
+            "description": "BASIC",
+            "id": 10,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "BASIC_A",
+            "description": "BASIC ARREARS",
+            "id": 81,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "BASICDA_PERCENT",
+            "description": "BASIC DA PERCENTAGE",
+            "id": 48,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "BASIC_REVERSAL",
+            "description": "BASIC REVERSAL",
+            "id": 124,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "BONUS",
+            "description": "BONUS",
+            "id": 96,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "BOOKS_PERIODICAL",
+            "description": "BOOKS and PERIODICAL",
+            "id": 173,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "CAL_FLDS",
+            "description": "CALCULATION FIELDS",
+            "id": 24,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "CESS_MON_X",
+            "description": "CESS MONTHLY",
+            "id": 43,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "CESS_MON",
+            "description": "CESS MONTHLY WITH PREV EMP",
+            "id": 40,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "CHAUFFER_ACC",
+            "description": "CHAUFFER ACCUMULATION",
+            "id": 163,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "CHAUFFERS_ENT",
+            "description": "CHAUFFERS SALARY ELIGIBILITY",
+            "id": 154,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "CHAUFFER_REIMB",
+            "description": "CHAUFFERS SALARY REIMBURSEMENT",
+            "id": 170,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "CEA",
+            "description": "CHILDREN EDUCATION ALLOWANCE",
+            "id": 200,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "CEA_A",
+            "description": "CHILDREN EDUCATION ALLOWANCE ARREARS",
+            "id": 201,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "CLDEDUALL_REVERSAL",
+            "description": "CHILDREN EDUCATION ALLOWANCE REVERSAL",
+            "id": 202,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "CLA_HRA",
+            "description": "CLA / HRA",
+            "id": 50,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "CONVEYANCE",
+            "description": "CONVEYANCE",
+            "id": 13,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "CONVEYANCE_A",
+            "description": "CONVEYANCE ARREARS",
+            "id": 83,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "CONV_EXEMPT",
+            "description": "CONVEYANCE EXEMPT",
+            "id": 60,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "GT_CONVEYANCE_ANN",
+            "description": "CONVEYANCE LIMIT ANNUAL",
+            "id": 121,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "GT_CONVEYANCE_MON",
+            "description": "CONVEYANCE LIMIT MONTHLY",
+            "id": 120,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "CON_REVERSAL",
+            "description": "CONVEYANCE REVERSAL",
+            "id": 127,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": true,
+            "name": "CTC_ITEMS",
+            "description": "CTC ITEMS",
+            "id": 89,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "DA",
+            "description": "DA",
+            "id": 11,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "DA_A",
+            "description": "DA ARREARS",
+            "id": 85,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "DA_REVERSAL",
+            "description": "DA REVERSAL",
+            "id": 125,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "DAYSINMONTH",
+            "description": "DAYS IN MONTH",
+            "id": 5,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "DIRECT_TDS",
+            "description": "DIRECT TDS",
+            "id": 47,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "DRV_SAL_ALW",
+            "description": "DRIVER SALARY ALLOWANCE",
+            "id": 207,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "EDLI_ADMIN_CHARGE",
+            "description": "EDLI ADMIN CHARGES",
+            "id": 115,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "EDLI_BASIC",
+            "description": "EDLI BASIC",
+            "id": 113,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "EDLI_CONTRIBUTION",
+            "description": "EDLI CONTRIBUTION",
+            "id": 114,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "EDU_EXEMPT",
+            "description": "EDUCATION EXEMPT",
+            "id": 57,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "IS_PF_ELIGIBLE",
+            "description": "ELIGIBLE FOR PF",
+            "id": 107,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "ISPFELIGIBLE",
+            "description": "ELIGIBLE FOR PF",
+            "id": 27,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "EFFWORKDAYS",
+            "description": "EMP EFFECTIVE WORKDAYS",
+            "id": 2,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "D_EFFWORKDAYS",
+            "description": "EMP EFFECTIVE WORKDAYS FOR DISPLAY",
+            "id": 3,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "EMPLOYEEWORKDAYS",
+            "description": "EMPLOYEE WORKDAYS",
+            "id": 1,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "WORKDAYS",
+            "description": "EMPLOYEE WORKDAYS",
+            "id": 6,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "D_WORKDAYS",
+            "description": "EMPLOYEE WORKDAYS FOR DISPLAY",
+            "id": 4,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "E_LAB_WELF",
+            "description": "EMPLOYER LABOUR WELFARE CONTRIBUTION",
+            "id": 77,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "EMPL_ESI",
+            "description": "EMPLOYERS ESI",
+            "id": 32,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "EMP_PF",
+            "description": "EMPLOYERS PF",
+            "id": 28,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "ENCASH_DAYS",
+            "description": "ENCASHMENT DAYS",
+            "id": 64,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": true,
+            "name": "ENT_ITEMS",
+            "description": "ENTITLEMENT RELATED ITEMS",
+            "id": 150,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "EPF_ADMIN_CHARGES",
+            "description": "EPF ADMIN CHARGES",
+            "id": 116,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "EPF_EXCESS",
+            "description": "EPF EXCESS CONTRIBUTION",
+            "id": 110,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "EPS_BASIC",
+            "description": "EPS BASIC",
+            "id": 112,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "EPS_EXCESS",
+            "description": "EPS EXCESS CONTRIBUTION",
+            "id": 109,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "EPS_NEW_JOINEE",
+            "description": "EPS NEW JOINEE",
+            "id": 111,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "ESI",
+            "description": "ESI",
+            "id": 16,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "CESI_BASIC",
+            "description": "ESI BASIC",
+            "id": 31,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "ESI_ITEMS",
+            "description": "ESI RELATED ITEMS",
+            "id": 30,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "EXEMP_ITEMS",
+            "description": "EXEMPTION ITEMS",
+            "id": 56,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "EMP_FPF",
+            "description": "FAMILY PENSION FUND",
+            "id": 29,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FBP_BASKET",
+            "description": "FBP BASKET",
+            "id": 135,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": true,
+            "name": "FBP_ENT",
+            "description": "FBP ENTITLEMENTS",
+            "id": 133,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FBP_FUEL",
+            "description": "FBP FUEL",
+            "id": 141,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FBP_LTA",
+            "description": "FBP LTA",
+            "id": 143,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FBP_LTA_ENTITL",
+            "description": "FBP LTA ENTITLEMENT",
+            "id": 136,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FBP_MEDICAL",
+            "description": "FBP MEDICAL",
+            "id": 144,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FBP_MEDICAL_TITLE",
+            "description": "FBP MEDICAL ENTITLEMENT",
+            "id": 137,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": true,
+            "name": "FBP_REL_ITEMS",
+            "description": "FBP RELATED ITEMS",
+            "id": 139,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FBP_SPECIAL",
+            "description": "FBP SPECIAL",
+            "id": 142,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FBP_TEL",
+            "description": "FBP TELEPHONE",
+            "id": 146,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FBP_TEL_ENT",
+            "description": "FBP TELEPHONE ENTITLEMENT",
+            "id": 138,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FBP_TOTAL",
+            "description": "FBP TOTAL",
+            "id": 140,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FOOD_ALW",
+            "description": "FOOD ALLOWANCE",
+            "id": 197,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FOODALW_A",
+            "description": "FOOD ALLOWANCE ARREARS",
+            "id": 198,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FOODALL_REVERSAL",
+            "description": "FOOD ALLOWANCE REVERSAL",
+            "id": 199,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FUL_ENT",
+            "description": "FUEL ENTITLEMENT",
+            "id": 134,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FM_A1600CC_REIMB",
+            "description": "FUEL MAINTENANCE A1600cc REIMBURSEMENT",
+            "id": 171,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FUEL_A_1600CC",
+            "description": "FUEL MAINTENANCE ABOVE 1600cc",
+            "id": 152,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FM_B1600CC_REIMB",
+            "description": "FUEL MAINTENANCE B1600cc REIMBURSEMENT",
+            "id": 172,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FUEL_B_1600CC",
+            "description": "FUEL MAINTENANCE BELOW 1600cc",
+            "id": 153,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "F_BASIC",
+            "description": "FULL BASIC",
+            "id": 82,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "F_CEA",
+            "description": "FULL CEA",
+            "id": 184,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "F_CONVEYANCE",
+            "description": "FULL CONVEYANCE",
+            "id": 84,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "F_DA",
+            "description": "FULL DA",
+            "id": 86,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "F_FOODALW",
+            "description": "FULL FOOD ALLOWANCE",
+            "id": 122,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "F_HRA",
+            "description": "FULL HRA",
+            "id": 88,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "FULL_LTA",
+            "description": "FULL LTA",
+            "id": 118,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "F_MEDALW",
+            "description": "FULL MEDICAL ALLOWANCE",
+            "id": 92,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "F_SPECIAL_ALLOW",
+            "description": "FULL SPECIAL ALLOWANCE",
+            "id": 93,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "F_TELEPHONEALW",
+            "description": "FULL TELEPHONE ALLOWANCE",
+            "id": 185,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "GRATUITY",
+            "description": "GRATUITY",
+            "id": 196,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "INCOME",
+            "description": "GROSS",
+            "id": 9,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": true,
+            "name": "G1",
+            "description": "GROUP1",
+            "id": 165,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": true,
+            "name": "G2",
+            "description": "GROUP2",
+            "id": 169,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "HARD_FURNISH_ALW",
+            "description": "HARD FURNISHING REIMBURSEMENT",
+            "id": 175,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "HRS",
+            "description": "HOLD RELEASE SALARY",
+            "id": 216,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "HOUSE_PERQ",
+            "description": "HOUSE PERQUISITE",
+            "id": 54,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "HPERQ_PERCENT",
+            "description": "HOUSING PERQ PERCENTAGE",
+            "id": 49,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "HRA",
+            "description": "HRA",
+            "id": 12,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "HRA_A",
+            "description": "HRA ARREARS",
+            "id": 87,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "HRA_REVERSAL",
+            "description": "HRA REVERSAL",
+            "id": 126,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "INCENTIVE",
+            "description": "INCENTIVE",
+            "id": 97,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "INC_TAX",
+            "description": "INCOME TAX",
+            "id": 18,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "ITAX_ITEMS",
+            "description": "INCOME TAX RELATED ITEMS",
+            "id": 35,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "IS_INTNL_EMP",
+            "description": "INTERNATIONAL EMPLOYEE",
+            "id": 108,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "INT_ENT",
+            "description": "INTERNET ENTITLEMENT",
+            "id": 157,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "INT_REIMBURSEMENT",
+            "description": "INTERNET REIMBURSEMENT",
+            "id": 177,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "JOIN_BONUS",
+            "description": "JOINING BONUS",
+            "id": 221,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "LAB_WELF",
+            "description": "LABOUR WELFARE FUND",
+            "id": 22,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "LEAVE_ENCASHMENT",
+            "description": "LEAVE ENCASHMENT",
+            "id": 195,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": true,
+            "name": "LEAVE_ENCASH_ITEMS",
+            "description": "Leave Encash Related Items",
+            "id": 180,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "LOAN",
+            "description": "LOAN",
+            "id": 20,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "LOC_IND",
+            "description": "LOCATION INDICATOR",
+            "id": 220,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "LOP",
+            "description": "LOP",
+            "id": 7,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "LOP_REVERSAL",
+            "description": "LOP REVERSAL",
+            "id": 123,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "LTA",
+            "description": "LTA",
+            "id": 192,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "LTA_A",
+            "description": "LTA ARREARS",
+            "id": 193,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "LTA_ENT",
+            "description": "LTA ENTITLEMENT",
+            "id": 178,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "LTA_EXEMPT",
+            "description": "LTA EXEMPT",
+            "id": 59,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "LTA_REIMB",
+            "description": "LTA REIMBURSEMENT",
+            "id": 168,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "LTA_REVERSAL",
+            "description": "LTA REVERSAL",
+            "id": 194,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "MED_ALW",
+            "description": "MEDICAL ALLOWANCE",
+            "id": 189,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "MED_ARREAR",
+            "description": "MEDICAL ALLOWANCE ARREARS",
+            "id": 190,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "MEDALL_REVERSAL",
+            "description": "MEDICAL ALLOWANCE REVERSAL",
+            "id": 191,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "MED_ANN_ENT",
+            "description": "MEDICAL ANNUAL ENTITLEMENT",
+            "id": 156,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "MED_ANN_REIMB",
+            "description": "MEDICAL ANNUAL REIMBURSEMENT",
+            "id": 176,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "MEDI_EXEMPT",
+            "description": "MEDICAL EXEMPT",
+            "id": 58,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "MED_MON_ENT",
+            "description": "MEDICAL MONTHLY ENTITLEMENT",
+            "id": 151,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "MEDICAL_REIMB",
+            "description": "MEDICAL REIMBURSEMENT",
+            "id": 167,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "MEDICAL_UNCLAIMED",
+            "description": "MEDICAL UNCLAIMED",
+            "id": 215,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "MEDICAL_UNCLAIMED1",
+            "description": "MEDICAL UNCLAIMED1",
+            "id": 102,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "MISC_ITEMS",
+            "description": "MISCELLANEOUS ITEMS",
+            "id": 74,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "MISC_REIM",
+            "description": "MISC REIMBURSEMENT",
+            "id": 62,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "MONTHLY_CTC",
+            "description": "MONTHLY CTC",
+            "id": 91,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "NA",
+            "description": "NA",
+            "id": 101,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "NA_2",
+            "description": "NA2",
+            "id": 79,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "NA_PM",
+            "description": "NA_PM",
+            "id": 100,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "TOT_COST",
+            "description": "NET PAY",
+            "id": 8,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "NO_OF_CHILD",
+            "description": "NO. OF CHILDREN",
+            "id": 222,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "NOTICE_PAY",
+            "description": "NOTICE PAYABLE",
+            "id": 104,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "NP_EXCESS_DAYS",
+            "description": "NOTICE PERIOD EXCESS DAYS",
+            "id": 224,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "NOTICE_DAYS",
+            "description": "NOTICE PERIOD SHORTFALL DAYS",
+            "id": 65,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "NOTICE_RECOVERY",
+            "description": "NOTICE RECOVERY",
+            "id": 103,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "OT_DAYS",
+            "description": "OT DAYS",
+            "id": 129,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "OTHER_DED",
+            "description": "OTHER DEDUCTION",
+            "id": 98,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "OTH_EARN",
+            "description": "OTHER EARNINGS",
+            "id": 188,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "OTH_LOAN",
+            "description": "OTHER LOAN",
+            "id": 21,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "OTHPAY_ITEMS",
+            "description": "OTHER PAYMENT ITEMS",
+            "id": 61,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "OT_HOURS",
+            "description": "OT HOURS",
+            "id": 130,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "OT_PAYOUT",
+            "description": "OT PAYOUT",
+            "id": 131,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "PAYROL_MON",
+            "description": "PAYROLL MONTH",
+            "id": 75,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "PERQ_ITEMS",
+            "description": "PERQUISITE ITEMS",
+            "id": 51,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "PF",
+            "description": "PF",
+            "id": 15,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "PF_BASE_LIMIT",
+            "description": "PF BASE LIMIT",
+            "id": 105,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "CPF_BASIC",
+            "description": "PF BASIC",
+            "id": 26,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "PF_ITEMS",
+            "description": "PF RELATED ITEMS",
+            "id": 25,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "PROF_PURSUIT_ALW",
+            "description": "PROFESSIONAL PURSUIT REIMBURSEMENT",
+            "id": 174,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "PROF_TAX",
+            "description": "PROF TAX",
+            "id": 19,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "PROF_TAX_AGENT",
+            "description": "PROF TAX AGENT",
+            "id": 223,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "CPTAX_BAS",
+            "description": "PROF TAX BASIC",
+            "id": 34,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "PTAX_ITEMS",
+            "description": "PROF TAX RELATED ITEMS",
+            "id": 33,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "PCONV_EXEMPT",
+            "description": "PROJ CONV EXEMPTION",
+            "id": 73,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "PROJ_ITEMS",
+            "description": "PROJECTION ITEMS",
+            "id": 66,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "PHOUSE_PERQ",
+            "description": "PROJ HOUSE PERQUISITE",
+            "id": 71,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "PROJ_PF",
+            "description": "PROJ PF",
+            "id": 70,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "PCPF_BASIC",
+            "description": "PROJ PF BASIC",
+            "id": 69,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "PPROF_TAX",
+            "description": "PROJ PROF TAX",
+            "id": 68,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "PCPT_BASIC",
+            "description": "PROJ PROF TAX BASIC",
+            "id": 67,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "PVEHI_PERQ",
+            "description": "PROJ VEHICLE PERQUISITE",
+            "id": 72,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "PRORATA_FACTOR",
+            "description": "PRORATA FACTOR",
+            "id": 80,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "PRO_INT",
+            "description": "PRORATA INTERNET",
+            "id": 161,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "PRORATA_MEDICAL",
+            "description": "PRORATA MEDICAL",
+            "id": 159,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": true,
+            "name": "PRORATA_ITEMS",
+            "description": "PRORATA RELATED ITEMS",
+            "id": 158,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "PRO_TEL",
+            "description": "PRORATA TELEPHONE",
+            "id": 160,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "RAW_TAX_MON_X",
+            "description": "RAW TAX MONTHLY",
+            "id": 41,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "RAW_TAX_MON",
+            "description": "RAW TAX MONTHLY WITH PREV EMP",
+            "id": 38,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "REF_BONUS",
+            "description": "REFERRAL BONUS",
+            "id": 218,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "REIMB_ITEMS",
+            "description": "REIMBURSEMENT ITEMS",
+            "id": 78,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "RE_BONUS",
+            "description": "RELOCATION BONUS",
+            "id": 219,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "REMAINING_MON",
+            "description": "REMAINING MONTH",
+            "id": 76,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "RET_BONUS",
+            "description": "RETENTION BONUS",
+            "id": 217,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "SAL_ADV",
+            "description": "SALARY ADVANCE",
+            "id": 186,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "FULL_INC",
+            "description": "SALARY MASTER",
+            "id": 23,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "SET_ITEMS",
+            "description": "SETTLEMENT RELATED ITEMS",
+            "id": 63,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "SPECIAL_ALLOW",
+            "description": "SPECIAL ALLOWANCE",
+            "id": 94,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "SPECIAL_ALLOW_A",
+            "description": "SPECIAL ALLOWANCE ARREARS",
+            "id": 95,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "SPLALL_REVERSAL",
+            "description": "SPECIAL ALLOWANCE REVERSAL",
+            "id": 128,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "GT_STAT_ITEMS",
+            "description": "STATUTORY ITEMS",
+            "id": 119,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "STIPEND",
+            "description": "STIPEND",
+            "id": 187,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "SURCHARGE_MON_X",
+            "description": "SURCHARGE MONTHLY",
+            "id": 42,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "SURCHARGE_MON",
+            "description": "SURCHARGE MONTHLY WITH PREV EMP",
+            "id": 39,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "MON_TAX_AMOUNT_X",
+            "description": "TAXABLE AMOUNT ",
+            "id": 37,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "MON_TAX_AMOUNT",
+            "description": "TAXABLE AMOUNT WITH PREV EMP",
+            "id": 36,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "TDS_CESS",
+            "description": "TDS CESS",
+            "id": 46,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "TDS_RAW_TAX",
+            "description": "TDS RAW TAX",
+            "id": 44,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "TDS_SURCHARGE",
+            "description": "TDS SURCHARGE",
+            "id": 45,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "TEL_ALW",
+            "description": "TELEPHONE ALLOWANCE",
+            "id": 203,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "TEL_ALW_A",
+            "description": "TELEPHONE ALLOWANCE ARREARS",
+            "id": 204,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "TELALL_REVERSAL",
+            "description": "TELEPHONE ALLOWANCE REVERSAL",
+            "id": 205,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "ENT_TEL",
+            "description": "TELEPHONE ENTITLEMENT",
+            "id": 155,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "TEL_REIMB",
+            "description": "TELEPHONE REIMBURSEMENT",
+            "id": 166,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "TEST",
+            "description": "Test",
+            "id": 99,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": true,
+            "name": "DEDUCT",
+            "description": "TOTAL DEDUCTIONS",
+            "id": 14,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "UNCL_BOOKS",
+            "description": "UNCLAIMED BOOKS and PERIODICAL",
+            "id": 208,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "UNCLAIM_CHAUFFERS",
+            "description": "UNCLAIMED CHAUFFERS SALARY",
+            "id": 209,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "UNCL_A1600C",
+            "description": "UNCLAIMED FUEL MAINTENANCE A1600cc",
+            "id": 210,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "UNCL_B1600C",
+            "description": "UNCLAIMED FUEL MAINTENANCE B1600cc",
+            "id": 211,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "UNCL_HARD",
+            "description": "UNCLAIMED HARD FURNISHING",
+            "id": 213,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "UNCL_INT",
+            "description": "UNCLAIMED INTERNET",
+            "id": 214,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "UNCL_PROFPURSUIT",
+            "description": "UNCLAIMED PROFESSIONAL PURSUIT",
+            "id": 212,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": true,
+            "name": "UNCLAIMED_ITEMS",
+            "description": "UNCLAIMED RELATED ITEMS",
+            "id": 179,
+            "leaf": false,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "VEH_ALW",
+            "description": "VEHICLE MAINTENANCE ALLOWANCE",
+            "id": 206,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "VEH_PERQ_MNTLY",
+            "description": "VEHICLE PERQ MONTHLY VALUE",
+            "id": 52,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "VEHI_PERQ",
+            "description": "VEHICLE PERQUISITE",
+            "id": 53,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": true,
+            "hasChildren": false,
+            "name": "VPF",
+            "description": "VPF",
+            "id": 17,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "YIS",
+            "description": "Years in Service",
+            "id": 181,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }, {
+            "expanded": false,
+            "system": false,
+            "hasChildren": false,
+            "name": "YIS1",
+            "description": "YIS1",
+            "id": 182,
+            "leaf": true,
+            "locked": false,
+            "parentId": ""
+        }
+    ],
+    "itSections": [
+        {
+            "deleted": false,
+            "id": 424,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "5 Years of Fixed Deposit in Scheduled Bank ",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 1,
+            "code": null,
+            "itCode": "5_YR_FIX_DEP",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 425,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80EE",
+            "description": "Additional Interest on housing loan borrowed as on 1st Apr 2016",
+            "remarks": null,
+            "maxLimit": 50000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 2,
+            "code": null,
+            "itCode": "ADD_HOUSING_LOAN_AS_ON_APR_2016",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 426,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Children Tuition Fees",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 3,
+            "code": null,
+            "itCode": "CHILDREN_TUT_FEES",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 427,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80CCD1(B)",
+            "description": "Contribution to NPS 2015 ",
+            "remarks": null,
+            "maxLimit": 50000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 4,
+            "code": null,
+            "itCode": "NPS_2015",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 428,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80CCC",
+            "description": "Contribution to Pension Fund",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 5,
+            "code": null,
+            "itCode": "PENSION_FUND",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 429,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Deposit in NSC",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 6,
+            "code": null,
+            "itCode": "NSC",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 430,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Deposit in NSS",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 7,
+            "code": null,
+            "itCode": "NSS",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 431,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Deposit in Post Office Savings Schemes",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 8,
+            "code": null,
+            "itCode": "DEP_IN_POST_OFF",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 432,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80G",
+            "description": "Donation - 100% Exemption",
+            "remarks": null,
+            "maxLimit": 9.9999999E7,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 9,
+            "code": null,
+            "itCode": "DONATION_100_PC",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 433,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80G",
+            "description": "Donation - 50% Exemption",
+            "remarks": null,
+            "maxLimit": 9.9999999E7,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 50.0,
+            "multiplier": 1.0,
+            "sortOrder": 10,
+            "code": null,
+            "itCode": "DONATION_50_PC",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 434,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80G",
+            "description": "Donation - Children Education",
+            "remarks": null,
+            "maxLimit": 9.9999999E7,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 11,
+            "code": null,
+            "itCode": "DONATION_CHILD_EDU",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 450,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80G",
+            "description": "Donation - Political Parties",
+            "remarks": null,
+            "maxLimit": 9.9999999E7,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 12,
+            "code": null,
+            "itCode": "DONATION_POLITICAL_PARTIES",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 451,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Equity Linked Savings Scheme ( ELSS )",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 14,
+            "code": null,
+            "itCode": "ELSS",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 452,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Infrastructure Bonds",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 15,
+            "code": null,
+            "itCode": "INFRA_BOND",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 453,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80TTA",
+            "description": "Interest on Deposits in Savings Account, FDs, Post Office And Cooperative Society",
+            "remarks": null,
+            "maxLimit": 10000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 16,
+            "code": null,
+            "itCode": "SAVINGS_ACC_INTRST",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 476,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80TTB",
+            "description": "Interest on Deposits in Savings Account, FDs, Post Office And Cooperative Society for Senior Citizen",
+            "remarks": "",
+            "maxLimit": 50000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 4,
+            "code": "",
+            "itCode": "SAVINGS_ACC_INTRST_SNR_CTZ",
+            "instruction": "",
+            "systemItem": true
+        }, {
+            "deleted": false,
+            "id": 454,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80E",
+            "description": "Interest on Loan of higher Self education ",
+            "remarks": null,
+            "maxLimit": 9.9999999E7,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 17,
+            "code": null,
+            "itCode": "EDU_LOAN_INTRST",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 455,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Interest on NSC Reinvested",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 18,
+            "code": null,
+            "itCode": "INTRST_ON_NSC",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 456,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Kisan Vikas Patra (KVP)",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 19,
+            "code": null,
+            "itCode": "KVP",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 457,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Life Insurance Premium",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 20,
+            "code": null,
+            "itCode": "LIP",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 458,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Long term Infrastructure Bonds",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 21,
+            "code": null,
+            "itCode": "LONG_TERM_INFRA_BOND",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 459,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80D",
+            "description": "Medical Bills - Very Senior Citizen",
+            "remarks": null,
+            "maxLimit": 50000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 22,
+            "code": null,
+            "itCode": "MEDI_BILLS_VSS",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 474,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80D",
+            "description": "Medical Insurance Premium",
+            "remarks": null,
+            "maxLimit": 25000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 23,
+            "code": null,
+            "itCode": "MEDI_INS_SELF",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 475,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80D",
+            "description": "Medical Insurance Premium - Dependant Parents",
+            "remarks": null,
+            "maxLimit": 25000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 24,
+            "code": null,
+            "itCode": "MEDI_INS_PARENTS",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 441,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80DD",
+            "description": "Medical Treatment / Insurance of handicapped Dependant",
+            "remarks": null,
+            "maxLimit": 75000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 25,
+            "code": null,
+            "itCode": "MEDI_INS_HANDICAP",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 442,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80DD",
+            "description": "Medical Treatment / Insurance of handicapped Dependant (Severe) ",
+            "remarks": null,
+            "maxLimit": 125000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 26,
+            "code": null,
+            "itCode": "MEDI_INS_HANDICAP_SEVERE",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 443,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80DDB",
+            "description": "Medical Treatment ( Specified Disease only )",
+            "remarks": null,
+            "maxLimit": 40000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 27,
+            "code": null,
+            "itCode": "MEDI_TREAT_SPEC_DISEASE",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 444,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80DDB",
+            "description": "Medical Treatment (Specified Disease only)- Senior Citizen",
+            "remarks": null,
+            "maxLimit": 100000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 28,
+            "code": null,
+            "itCode": "MEDI_TREATMENT_SENIOR",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 445,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80DDB",
+            "description": "Medical Treatment (Specified Disease only)- Very Senior Citizen",
+            "remarks": null,
+            "maxLimit": 100000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 29,
+            "code": null,
+            "itCode": "MEDI_TREATMENT_VERY_SENIOR",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 446,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Mutual Funds",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 30,
+            "code": null,
+            "itCode": "MUTUAL_FUNDS",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 447,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "NABARD Rural Bonds",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 31,
+            "code": null,
+            "itCode": "NABARD",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 448,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "National Pension Scheme",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 32,
+            "code": null,
+            "itCode": "NPS_CONTRIBUTION",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 460,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "NHB Scheme",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 33,
+            "code": null,
+            "itCode": "NHB",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 461,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80U",
+            "description": "Permanent Physical disability (Above 40%)",
+            "remarks": null,
+            "maxLimit": 125000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 34,
+            "code": null,
+            "itCode": "PHY_DISABILITY",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 462,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80U",
+            "description": "Permanent Physical disability (Below 40%)",
+            "remarks": null,
+            "maxLimit": 75000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 35,
+            "code": null,
+            "itCode": "PHY_DISABILITY_BELOW_40",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 463,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Post office time deposit for 5 years",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 36,
+            "code": null,
+            "itCode": "POST_OFF_DEP_ABV_5YRS",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 465,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Pradhan Mantri Suraksha Bima Yojana",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 37,
+            "code": null,
+            "itCode": "PMSBY",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 440,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80D",
+            "description": "Preventive Health Check-up",
+            "remarks": null,
+            "maxLimit": 5000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 38,
+            "code": null,
+            "itCode": "MEDI_HEALTH_CHECKUP_SELF",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 449,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80D",
+            "description": "Preventive Health Checkup - Dependant Parents",
+            "remarks": "",
+            "maxLimit": 5000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": true,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 20,
+            "code": null,
+            "itCode": "MEDI_HEALTH_CHECKUP_PARENTS",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 466,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Public Provident Fund",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 39,
+            "code": null,
+            "itCode": "PUBLIC_PF",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 467,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80CCG",
+            "description": "Rajiv Gandhi Equity Scheme",
+            "remarks": null,
+            "maxLimit": 25000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 40,
+            "code": null,
+            "itCode": "RGES",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 468,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Repayment of Housing loan(Principal amount)",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 41,
+            "code": null,
+            "itCode": "HOUSING_LOAN",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 469,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Stamp duty and Registration charges",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 42,
+            "code": null,
+            "itCode": "STAMP_DUTY_REG",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 464,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Sukanya Samriddhi Yojana",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 43,
+            "code": null,
+            "itCode": "SSY",
+            "instruction": null,
+            "systemItem": false
+        }, {
+            "deleted": false,
+            "id": 470,
+            "itCategory": {
+                "deleted": false,
+                "id": 2,
+                "description": "Deduction Under Chapter VI A",
+                "sortOrder": 2
+            },
+            "itSection": "80C",
+            "description": "Unit Linked Insurance Premium (ULIP)",
+            "remarks": null,
+            "maxLimit": 150000.0,
+            "infra": false,
+            "visible": true,
+            "taxYear": 2018,
+            "fromPayroll": false,
+            "deductPercent": 0.0,
+            "multiplier": 1.0,
+            "sortOrder": 44,
+            "code": null,
+            "itCode": "ULIP",
+            "instruction": null,
+            "systemItem": false
+        }
+    ],
+    "taxItemTypes": [
+        {
+            "id": 0,
+            "category": 0,
+            "code": "NON_TAX",
+            "description": "Non Tax Related Item",
+            "itemOrder": 0,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 1,
+            "category": 1,
+            "code": "BASIC",
+            "description": "Tax - Basic",
+            "itemOrder": 1,
+            "taxInfoColumn": "TOT_BASIC",
+            "sec10Element": false
+        }, {
+            "id": 2,
+            "category": 1,
+            "code": "HRA",
+            "description": "Tax - HRA",
+            "itemOrder": 2,
+            "taxInfoColumn": "TOT_HRA",
+            "sec10Element": true
+        }, {
+            "id": 6,
+            "category": 1,
+            "code": "CLA",
+            "description": "Tax - CLA",
+            "itemOrder": 3,
+            "taxInfoColumn": "TOT_CLA",
+            "sec10Element": false
+        }, {
+            "id": 3,
+            "category": 1,
+            "code": "LTA",
+            "description": "Tax - LTA",
+            "itemOrder": 3,
+            "taxInfoColumn": "TOT_LTA",
+            "sec10Element": true
+        }, {
+            "id": 4,
+            "category": 1,
+            "code": "MEDICAL",
+            "description": "Tax - Medical",
+            "itemOrder": 4,
+            "taxInfoColumn": "TOT_MEDICAL",
+            "sec10Element": true
+        }, {
+            "id": 5,
+            "category": 1,
+            "code": "CONVEYANCE",
+            "description": "Tax - Conveyance",
+            "itemOrder": 5,
+            "taxInfoColumn": "TOT_CONVEY",
+            "sec10Element": true
+        }, {
+            "id": 7,
+            "category": 1,
+            "code": "OTHER_TAXABLE",
+            "description": "Tax - Other Taxable Income",
+            "itemOrder": 6,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 201,
+            "category": 2,
+            "code": "ADHOC_INCOME",
+            "description": "Tax - Adhoc Income",
+            "itemOrder": 7,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 202,
+            "category": 2,
+            "code": "ADHOC_ONETIME",
+            "description": "Tax - Adhoc Income - One Time Tax",
+            "itemOrder": 7,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 203,
+            "category": 2,
+            "code": "ADHOC_SEC10",
+            "description": "Tax - Adhoc Section 10 Allowances",
+            "itemOrder": 7,
+            "taxInfoColumn": null,
+            "sec10Element": true
+        }, {
+            "id": 9,
+            "category": 1,
+            "code": "EDU_ALLOW",
+            "description": "Tax - Education Allowance",
+            "itemOrder": 8,
+            "taxInfoColumn": "TOT_EDU",
+            "sec10Element": true
+        }, {
+            "id": 11,
+            "category": 10,
+            "code": "TAX_EXCL",
+            "description": "Tax - Excluded",
+            "itemOrder": 8,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 10,
+            "category": 1,
+            "code": "SEC10_ALLOW",
+            "description": "Tax - Section 10 Allowances",
+            "itemOrder": 8,
+            "taxInfoColumn": null,
+            "sec10Element": true
+        }, {
+            "id": 401,
+            "category": 4,
+            "code": "INC_TAX",
+            "description": "Tax - IT",
+            "itemOrder": 8,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 8,
+            "category": 1,
+            "code": "DA",
+            "description": "Tax - DA",
+            "itemOrder": 8,
+            "taxInfoColumn": "TOT_DA",
+            "sec10Element": false
+        }, {
+            "id": 501,
+            "category": 5,
+            "code": "DIRECT_TDS",
+            "description": "Tax - Direct TDS",
+            "itemOrder": 9,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 13,
+            "category": 2,
+            "code": null,
+            "description": "Tax - Gross-up Taxable Income",
+            "itemOrder": 10,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 12,
+            "category": 2,
+            "code": null,
+            "description": "Tax - Gross-up Income",
+            "itemOrder": 10,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 301,
+            "category": 3,
+            "code": "PROF_TAX",
+            "description": "Tax - Proffessional  Tax",
+            "itemOrder": 10,
+            "taxInfoColumn": "T4C_TOT_PT",
+            "sec10Element": false
+        }, {
+            "id": 601,
+            "category": 6,
+            "code": "REBATE_SEC88",
+            "description": "Tax - Rebate Secion 88/Chapter6 Deduction",
+            "itemOrder": 11,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 702,
+            "category": 7,
+            "code": "PERQUISITE",
+            "description": "Perquisite - One Time Tax",
+            "itemOrder": 12,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 701,
+            "category": 7,
+            "code": "PERQUISITE",
+            "description": "Perqusite",
+            "itemOrder": 12,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 801,
+            "category": 8,
+            "code": "EXEMPTION",
+            "description": "Exemption",
+            "itemOrder": 13,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 901,
+            "category": 9,
+            "code": "BASICDA_PERCENT",
+            "description": "Basic DA Percentage (HRA Exemption)",
+            "itemOrder": 14,
+            "taxInfoColumn": "BASICDA_PERCENT",
+            "sec10Element": false
+        }, {
+            "id": 1001,
+            "category": 10,
+            "code": "CONV_EXEMPTION",
+            "description": "Conveyance Exemption",
+            "itemOrder": 15,
+            "taxInfoColumn": "T2B_CONV_EXEMP",
+            "sec10Element": false
+        }, {
+            "id": 1002,
+            "category": 10,
+            "code": "MED_EXEMPTION",
+            "description": "Medical Exemption",
+            "itemOrder": 16,
+            "taxInfoColumn": "T2C_MEDI_EXEMP",
+            "sec10Element": false
+        }, {
+            "id": 1003,
+            "category": 10,
+            "code": "LTA_EXEMPTION",
+            "description": "LTA Exemption",
+            "itemOrder": 17,
+            "taxInfoColumn": "T2D_LTA_EXEMP",
+            "sec10Element": false
+        }, {
+            "id": 1004,
+            "category": 10,
+            "code": "OTHER_TAX_ITEM",
+            "description": "Other Tax Related Items",
+            "itemOrder": 18,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }, {
+            "id": 1005,
+            "category": 10,
+            "code": "T1C_US17III",
+            "description": "Profits in lieu of salary as per 17(3)",
+            "itemOrder": 19,
+            "taxInfoColumn": "T1C_US17III",
+            "sec10Element": false
+        }, {
+            "id": 1006,
+            "category": 10,
+            "code": "RAW_TAX_PAID",
+            "description": "Tax Paid - Raw Tax",
+            "itemOrder": 20,
+            "taxInfoColumn": "RAW_TAX_PAID",
+            "sec10Element": false
+        }, {
+            "id": 1007,
+            "category": 10,
+            "code": "SURCHARGE_PAID",
+            "description": "Tax Paid - Surcharge",
+            "itemOrder": 21,
+            "taxInfoColumn": "SURCHARGE_PAID",
+            "sec10Element": false
+        }, {
+            "id": 1008,
+            "category": 10,
+            "code": "CESS_PAID",
+            "description": "Tax Paid - Cess",
+            "itemOrder": 22,
+            "taxInfoColumn": "CESS_PAID",
+            "sec10Element": false
+        }, {
+            "id": 1009,
+            "category": 5,
+            "code": "TDS_RAW_TAX",
+            "description": "Direct TDS - Raw Tax",
+            "itemOrder": 23,
+            "taxInfoColumn": "TDS_RAW_TAX",
+            "sec10Element": false
+        }, {
+            "id": 1010,
+            "category": 5,
+            "code": "TDS_SURCHARGE",
+            "description": "Direct TDS - Surcharge",
+            "itemOrder": 24,
+            "taxInfoColumn": "TDS_SURCHARGE",
+            "sec10Element": false
+        }, {
+            "id": 1011,
+            "category": 5,
+            "code": "TDS_CESS",
+            "description": "Direct TDS - Cess",
+            "itemOrder": 26,
+            "taxInfoColumn": "TDS_CESS",
+            "sec10Element": false
+        }, {
+            "id": 1012,
+            "category": 0,
+            "code": null,
+            "description": "Direct TDS - Taxable Income",
+            "itemOrder": 27,
+            "taxInfoColumn": "TDS_TAX_AMT",
+            "sec10Element": false
+        }, {
+            "id": 1013,
+            "category": 10,
+            "code": null,
+            "description": "Tax Paid By Employer",
+            "itemOrder": 28,
+            "taxInfoColumn": "TAX_PAID_BY_EMPLOYER",
+            "sec10Element": false
+        }, {
+            "id": 1014,
+            "category": 10,
+            "code": "TAX_EXCL_MON",
+            "description": "Tax - Exclude From Monthly Taxable Income",
+            "itemOrder": 29,
+            "taxInfoColumn": null,
+            "sec10Element": false
+        }
+    ],
+    "updatorList": [
+        {
+            "default": true,
+            "name": "formulaUpdator",
+            "description": "Formula Updator"
+        }, {
+            "default": true,
+            "name": "filltypeUpdator",
+            "description": "Fill Type Updator"
+        }, {
+            "default": true,
+            "name": "upTreeUpdator",
+            "description": "Up Tree Updator"
+        }, {
+            "default": true,
+            "name": "sortOrderUpdator",
+            "description": "Sort Order Updator"
+        }, {
+            "default": true,
+            "name": "metadataUpdator",
+            "description": "Metadata Builder"
+        }, {
+            "default": false,
+            "name": "arrearOptionsUpdator",
+            "description": "Arrear Options Updator"
+        }, {
+            "default": false,
+            "name": "taxInfoUpdator",
+            "description": "Tax Info Updater"
+        }, {
+            "default": false,
+            "name": "projectionMapUpdator",
+            "description": "Projection Map Updater"
+        }, {
+            "default": false,
+            "name": "qbUpdator",
+            "description": "QB Updater"
+        }, {
+            "default": false,
+            "name": "templateUpdator",
+            "description": "Template Fields Updater"
+        }, {
+            "default": false,
+            "name": "columnUpdator",
+            "description": "Repository Column Builder"
+        }, {
+            "default": false,
+            "name": "helpTextUpdator",
+            "description": "Help Text Builder"
+        }, {
+            "default": false,
+            "name": "agentOptionUpdator",
+            "description": "Update Agent Options"
+        }
+    ],
+    "repositoryMap": {
+        "1": {
+            "id": 1,
+            "description": "Payroll Repository",
+            "criteriaSql": null,
+            "appId": 2,
+            "defaultGroup": true
+        },
+        "2": {
+            "id": 2,
+            "description": "SalaryStructure",
+            "criteriaSql": null,
+            "appId": null,
+            "defaultGroup": false
+        }
+    },
+    "form12BAMappingItems": [
+        {
+            "id": 1,
+            "natureOfPerquisite": "Accommodation",
+            "groupId": 1
+        }, {
+            "id": 2,
+            "natureOfPerquisite": "Cars/Other automotive",
+            "groupId": 1
+        }, {
+            "id": 12,
+            "natureOfPerquisite": "Club expenses",
+            "groupId": 1
+        }, {
+            "id": 11,
+            "natureOfPerquisite": "Credit card expenses",
+            "groupId": 1
+        }, {
+            "id": 9,
+            "natureOfPerquisite": "Free education",
+            "groupId": 1
+        }, {
+            "id": 8,
+            "natureOfPerquisite": "Free meals",
+            "groupId": 1
+        }, {
+            "id": 7,
+            "natureOfPerquisite": "Free or concessional travel",
+            "groupId": 1
+        }, {
+            "id": 4,
+            "natureOfPerquisite": "Gas, electricity, water",
+            "groupId": 1
+        }, {
+            "id": 10,
+            "natureOfPerquisite": "Gifts, vouchers etc.",
+            "groupId": 1
+        }, {
+            "id": 6,
+            "natureOfPerquisite": "Holiday expenses",
+            "groupId": 1
+        }, {
+            "id": 5,
+            "natureOfPerquisite": "Interest free or concessional loans",
+            "groupId": 1
+        }, {
+            "id": 17,
+            "natureOfPerquisite": "Other benefits or amenities",
+            "groupId": 1
+        }, {
+            "id": 16,
+            "natureOfPerquisite": "Stock options (non-qualified options)",
+            "groupId": 1
+        }, {
+            "id": 3,
+            "natureOfPerquisite": "Sweeper, gardener, watchman or personal attendant",
+            "groupId": 1
+        }, {
+            "id": 19,
+            "natureOfPerquisite": "Total value of profits in lieu of salary as per section 17(3)",
+            "groupId": 2
+        }, {
+            "id": 14,
+            "natureOfPerquisite": "Transfer of assets to employees",
+            "groupId": 1
+        }, {
+            "id": 13,
+            "natureOfPerquisite": "Use of movable assets by employees",
+            "groupId": 1
+        }, {
+            "id": 15,
+            "natureOfPerquisite": "Value of any other benefit/amenity/service/privilege",
+            "groupId": 1
+        }
+    ],
+    "isRepositoryLocked": false,
+    "agentList": [
+        {
+            "name": "Absent Agent",
+            "className": "FKPayroll2.AbsentAgent",
+            "id": 84
+        }, {
+            "name": "Accumulation Agent",
+            "className": "FKPayroll2.AccAgent",
+            "id": 8
+        }, {
+            "name": "Accumulation Agent V1",
+            "className": "FKPayroll2.AccAgentV1",
+            "id": 25
+        }, {
+            "name": "Accumulation Agent V2",
+            "className": "FKPayroll2.AccAgentV2",
+            "id": 27
+        }, {
+            "name": "Age Agent",
+            "className": "FKPayroll2.AgeAgent",
+            "id": 21
+        }, {
+            "name": "Arrear Agent",
+            "className": "FKPayroll2.ArrearAgent",
+            "id": 16
+        }, {
+            "name": "Attendance Leave Picker Agent",
+            "className": "FKPayroll2.AttendanceLeavePickerAgent",
+            "id": 85
+        }, {
+            "name": "Attendance Status Picker Agent",
+            "className": "FKPayroll2.AttendanceStatusPickerAgent",
+            "id": 86
+        }, {
+            "name": "Average Agent",
+            "className": "FKPayroll2.AverageAgent",
+            "id": 47
+        }, {
+            "name": "Bonus Agent",
+            "className": "FKPayroll2.BonusAgent",
+            "id": 28
+        }, {
+            "name": "Brought Forward Agent",
+            "className": "FKPayroll2.BroughtForwardAgent",
+            "id": 12
+        }, {
+            "name": "Completed Months Agent",
+            "className": "FKPayroll2.CompletedMonthsAgent",
+            "id": 34
+        }, {
+            "name": "DA Agent",
+            "className": "FKPayroll2.DAAgent",
+            "id": 52
+        }, {
+            "name": "DA Difference Agent",
+            "className": "FKPayroll2.DADifferenceAgent",
+            "id": 53
+        }, {
+            "name": "DaysInMonth Agent",
+            "className": "FKPayroll2.DaysInMonthAgent",
+            "id": 4
+        }, {
+            "name": "Day Type Counter",
+            "className": "FKPayRoll2.DayTypeCounterAgent",
+            "id": 57
+        }, {
+            "name": "Emp Gulf WorkDays Agent-v3",
+            "className": "FKPayroll2.EmpGulfWorkDaysAgentv3",
+            "id": 106
+        }, {
+            "name": "Employee Days In Month Agent",
+            "className": "FKPayroll2.EmployeeDaysInMonthAgent",
+            "id": 89
+        }, {
+            "name": "Employee Workdays Agent",
+            "className": "FKPayroll2.EmpWorkDaysAgent",
+            "id": 5
+        }, {
+            "name": "Employee Workdays Agent V1",
+            "className": "FKPayroll2.EmpWorkDaysAgentV1",
+            "id": 23
+        }, {
+            "name": "Employee Workdays Agent V2",
+            "className": "FKPayroll2.EmpWorkDaysAgentV2",
+            "id": 24
+        }, {
+            "name": "Employee Workdays Agent V3",
+            "className": "FKPayroll2.EmpWorkDaysAgentv3",
+            "id": 29
+        }, {
+            "name": "Employee Workdays Agent V4",
+            "className": "FKPayroll2.EmpWorkDaysAgentv4",
+            "id": 30
+        }, {
+            "name": "Employee Workdays Agent V5",
+            "className": "FKPayroll2.EmpWorkDaysAgentv5",
+            "id": 50
+        }, {
+            "name": "Employee Workdays Agent V6",
+            "className": "FKPayroll2.EmpWorkDaysAgentv6",
+            "id": 46
+        }, {
+            "name": "ESI Agent",
+            "className": "FKPayroll2.ESIAgent",
+            "id": 7
+        }, {
+            "name": "FA Commission Agent",
+            "className": "FKPayroll2.FACommissionAgent",
+            "id": 13
+        }, {
+            "name": "FBP Agent",
+            "className": "FKPayroll2.FBPAgent",
+            "id": 22
+        }, {
+            "name": "FBP Item Picker Agent",
+            "className": "FKPayroll2.FBPItemPickerAgent",
+            "id": 79
+        }, {
+            "name": "FBP Regular Agent",
+            "className": "FKPayroll2.FBPRegularAgent",
+            "id": 78
+        }, {
+            "name": "FBP Residual Agent",
+            "className": "FKPayroll2.FBPResidualAgent",
+            "id": 77
+        }, {
+            "name": "FBP Total Agent",
+            "className": "FKPayroll2.FBPTotalAgent",
+            "id": 76
+        }, {
+            "name": "Formula Agent",
+            "className": "FKPayroll2.FormulaAgent",
+            "id": 2
+        }, {
+            "name": "Free SQL Agent",
+            "className": "FKPayroll2.FreeSQLAgent",
+            "id": 43
+        }, {
+            "name": "Gross-up Agent",
+            "className": "FKPayroll2.GrossUpAgent",
+            "id": 223
+        }, {
+            "name": "Hand Entry Agent",
+            "className": "FKPayroll2.HandEntryAgent",
+            "id": 1
+        }, {
+            "name": "Hold And Release Salary Agent",
+            "className": "FKPayroll2.HoldSalaryAgent",
+            "id": 80
+        }, {
+            "name": "Holiday Agent",
+            "className": "FKPayroll2.HolidayAgent",
+            "id": 71
+        }, {
+            "name": "Housing Perquisite Agent",
+            "className": "FKPayroll2.HousingPerquisiteAgent",
+            "id": 17
+        }, {
+            "name": "Housing Perquisite Projection Agent",
+            "className": "FKPayroll2.HousingPerquisiteProjAgent",
+            "id": 19
+        }, {
+            "name": "HRA CLA IndicatorAgent",
+            "className": "FKPayroll2.HRACLAIndicatorAgent",
+            "id": 18
+        }, {
+            "name": "Income Tax Agent",
+            "className": "FKPayroll2.IncomeTaxAgent",
+            "id": 15
+        }, {
+            "name": "Income Tax Agent 2005",
+            "className": "FKPayRoll2.IncomeTaxAgent2005",
+            "id": 49
+        }, {
+            "name": "Income Tax Agent 2008",
+            "className": "FKPayRoll2.IncomeTaxAgent2008",
+            "id": 101
+        }, {
+            "name": "Income Tax Agent 2009",
+            "className": "FKPayRoll2.IncomeTaxAgent2009",
+            "id": 209
+        }, {
+            "name": "Is Date After",
+            "className": "FKPayroll2.IsDateAfterAgent",
+            "id": 38
+        }, {
+            "name": "Is Employee Gone Out Agent",
+            "className": "FKPayroll2.IsEmployeeGoneOutAgent",
+            "id": 51
+        }, {
+            "name": "Is Employee Settled Agent",
+            "className": "FKPayroll2.IsEmployeeSettledAgent",
+            "id": 32
+        }, {
+            "name": "Is PF Eligible Agent",
+            "className": "FKPayroll2.IsPFEligibleAgent",
+            "id": 208
+        }, {
+            "name": "IT Section 89 Relief Agent",
+            "className": "FKPayroll2.ITSection89ReliefAgent",
+            "id": 222
+        }, {
+            "name": "Labour Welfer Fund Agent",
+            "className": "FKPayroll2.LabourWelferFundAgent",
+            "id": 225
+        }, {
+            "name": "Leave Agent",
+            "className": "FKPayroll2.LeaveAgent",
+            "id": 33
+        }, {
+            "name": "Leave Days Calculation Agent",
+            "className": "FKPayroll2.LeaveDaysAgent",
+            "id": 105
+        }, {
+            "name": "Leave Settlement Recovery Agent",
+            "className": "FKPayroll2.LeaveSettlementRecoveryAgent",
+            "id": 107
+        }, {
+            "name": "LIC-SSS Agent",
+            "className": "FKPayroll2.LICSSSAgent",
+            "id": 20
+        }, {
+            "name": "Loan Agent",
+            "className": "FKPayroll2.LoanAgent",
+            "id": 11
+        }, {
+            "name": "Lookup Agent",
+            "className": "FKPayroll2.LookupAgent",
+            "id": 3
+        }, {
+            "name": "LOP Agent",
+            "className": "FKPayroll2.LOPAgent",
+            "id": 6
+        }, {
+            "name": "LOP Reversal Agent",
+            "className": "FKPayroll2.LOPAgentV1",
+            "id": 68
+        }, {
+            "name": "LTA Agent",
+            "className": "FKPayroll2.LTAAgent",
+            "id": 210
+        }, {
+            "name": "Malay IT Category Agent",
+            "className": "FKPayroll2.MalayITCategoryAgent",
+            "id": 41
+        }, {
+            "name": "Malaysia Attendance Component Picker Agent",
+            "className": "FKPayroll2.AttendCompPickerAgent",
+            "id": 37
+        }, {
+            "name": "Malaysia Income Tax Agent",
+            "className": "FKPayroll2.MalaysiaIncomeTaxAgent",
+            "id": 36
+        }, {
+            "name": "OT Arrear Agent",
+            "className": "FKPayroll2.OTArrearAgent",
+            "id": 216
+        }, {
+            "name": "OT Meal Agent",
+            "className": "FKPayroll2.OTMealAgent",
+            "id": 40
+        }, {
+            "name": "Payroll Month Agent",
+            "className": "FKPayroll2.PayrollMonthAgent",
+            "id": 26
+        }, {
+            "name": "Pay Scale Agent",
+            "className": "FKPayroll2.PayScaleAgent",
+            "id": 75
+        }, {
+            "name": "PF Agent",
+            "className": "FKPayroll2.PFAgent",
+            "id": 83
+        }, {
+            "name": "PF And ESI Arrear Agent",
+            "className": "FKPayroll2.PFArrearAgent",
+            "id": 88
+        }, {
+            "name": "PF And ESI Arrear Item Picker Agent",
+            "className": "FKPayroll2.PFArrearItemPickerAgent",
+            "id": 90
+        }, {
+            "name": "PF Contribution Rate Picker Agent",
+            "className": "FKPayroll2.PFContributionRatePickerAgent",
+            "id": 81
+        }, {
+            "name": "PF Eligibility Factors Agent",
+            "className": "FKPayroll2.PFEligibilityFactorsAgent",
+            "id": 82
+        }, {
+            "name": "Professional Tax Agent",
+            "className": "FKPayroll2.ProfessionalTaxAgent",
+            "id": 99
+        }, {
+            "name": "Project Workdays Picker Agent",
+            "className": "FKPayroll2.ProjectWorkdaysPickerAgent",
+            "id": 226
+        }, {
+            "name": "Prorata Agent",
+            "className": "FKPayroll2.ProrataAgent",
+            "id": 10
+        }, {
+            "name": "Reimbursement Agent",
+            "className": "FKPayroll2.ReimbursementAgent",
+            "id": 9
+        }, {
+            "name": "Reimbursement Total Agent",
+            "className": "FKPayroll2.ReimbursementTotalAgent",
+            "id": 100
+        }, {
+            "name": "Remaining Months Agent",
+            "className": "FKPayroll2.RemainingMonthsAgent",
+            "id": 31
+        }, {
+            "name": "Shift Agent",
+            "className": "FKPayroll2.ShiftAgent",
+            "id": 39
+        }, {
+            "name": "Show Previous Data Agent",
+            "className": "FKPayroll2.ShowPreviousDataAgent",
+            "id": 45
+        }, {
+            "name": "SMAM Commission Agent",
+            "className": "FKPayroll2.SMAMCommissionAgent",
+            "id": 14
+        }, {
+            "name": "Statutory Value Picker Agent",
+            "className": "FKPayroll2.StatutoryValuePickerAgent",
+            "id": 224
+        }, {
+            "name": "Tamilnadu PT Agent",
+            "className": "FKPayroll2.PTTamilnaduAgent",
+            "id": 74
+        }, {
+            "name": "Tax Info Item Picker Agent",
+            "className": "FKPayRoll2.TaxInfoItemPickerAgent",
+            "id": 48
+        }, {
+            "name": "Week Days Counter Agent",
+            "className": "FKPayroll2.WeekDaysCounterAgent",
+            "id": 221
+        }, {
+            "name": "Years In Service",
+            "className": "FKPayroll2.YearsInServiceAgent",
+            "id": 35
+        }, {
+            "name": "Years In Service Agent V1",
+            "className": "FKPayRoll2.YearsInServiceAgentV1",
+            "id": 55
+        }
+    ]
+}
