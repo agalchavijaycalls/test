@@ -1,0 +1,78 @@
+https://www.interaction-design.org/literature/article/adaptive-vs-responsive-design
+content is like water - from CSDA perpective we have diff field size so how to fit it like a water
+
+Adaptive design will (theoretically) ensure the best user experience according to whichever device the user is using to interface. Unlike responsive design, where a screen “flows” from desktop design into a smaller device’s, adaptive design offers tailor-made solutions. As the name suggests, they adapt to the user’s situational needs and capabilities. As designers, we can show users that we’re in tune with their needs on a mobile device by making our design touch friendly. 
+
+It’s important to keep an eye on the visual hierarchy of responsive design projects; you want to try to maintain this as your elements shuffle around the screen.
+
+breakpoints - point where ui starts breaking
+
+A strength of adaptive design is that it feels more relevant to the modern user experience, whereas responsive design shows a more desktop-centric approach (with the demands of other devices taking a secondary, almost passive place)
+
+achive a mix of adaptive and responsive using layout and theme
+
+Pros and Cons of adaptive and response
+
+
+https://www.interaction-design.org/literature/article/how-to-change-your-career-from-graphic-design-to-ux-design
+UX designers tend to be concerned with, as you can see from the image below, 3 primary factors: the look of a product, the feel of that product and the usability of that product.
+The look of a product is all about creating a product that has visual appeal and which, in particular, harmonizes with a user’s values and captures the spirit of what they expect in that product. In other words, it has to not only look nice, but look right too. 
+Next is the feel, which is really about developing products that are “a joy to use”. That is, whether you’re interacting with them or reacting to them, products should provide a pleasurable experience and not just a functional one.
+Lastly, usability is the cornerstone of user experience. If a product isn’t usable, the experience of using it can never be good. UX designers want to create products which can, ideally, be tailored to meet a user’s specific needs, but which provides functionality that is predictable.
+
+https://www.interaction-design.org/literature/article/principle-of-consistency-and-standards-in-user-interface-design
+4. Design for your User’s Expectations
+create clinet note page - create with mandatory or frequenty used fields - than redirect to edit page - we get time to load other related stuf and better user exe
+or may be multi tab wizard will help
+
+https://www.interaction-design.org/literature/article/5-things-everyone-should-know-about-ux-work
+how user use the product
+what user do
+
+https://www.interaction-design.org/literature/article/an-introduction-to-usability
+The 5 Characteristics of Usable Products
+https://www.interaction-design.org/literature/article/key-question-in-user-experience-design-usability-vs-desirability
+usability is a minimum requirement 
+nvolves user research (finding out who the users are in the first place), creating user personas (why, and under what conditions, would they use the product), performing user testing and usability testing, etc
+What can a user do with their mouse, finger, or stylus to directly interact with the interface?
+Do error messages provide a way for the user to correct the problem or explain why the error occurred?
+What feedback does a user get once an action is performed?
+Are the interface elements a reasonable size to interact with?
+
+https://www.interaction-design.org/literature/article/user-interface-design-guidelines-10-rules-of-thumb
+Offer simple error handling. No one likes to be told they’re wrong, especially your users. Systems should be designed to be as fool-proof as possible, but when unavoidable errors occur, ensure users are provided with simple, intuitive step-by-step instructions to solve the problem as quickly and painlessly as possible. For example, flag the text fields where the users forgot to provide input in an online form.
+
+Recognition rather than recall. 
+
+mobile first vs desktop first
+
+https://www.interaction-design.org/literature/article/the-principles-of-service-design-thinking-building-better-services
+Services should be designed based on customer needs rather than 
+
+https://www.interaction-design.org/literature/article/the-grid-system-building-a-solid-design-layout
+
+https://www.uxpin.com/studio/blog/important-considerations-responsive-design-performance-ux/
+https://uxtricks.design/blogs/ux-design/responsive-web-design/
+fluid vs responsive
+Prioritization is key.
+
+https://developers.google.com/web/fundamentals/design-and-ux/principles/
+
+Impl
+
+https://hackernoon.com/the-importance-of-responsive-web-design-for-optimal-user-experience-3aee5c3c6099
+https://developers.google.com/web/fundamentals/design-and-ux/responsive/
+
+
+for small devices along with responsive design needs to take care or resources we consume memory or cpu
+
+
+Backend Services 
+https://www.thoughtworks.com/insights/blog/rest-api-design-resource-modeling
+http://restlet.com/company/blog/2017/05/03/the-two-perspectives-of-api-design/
+https://api-university.com/api-lifecycle/api-design/
+https://nordicapis.com/7-api-design-lessons-world-tour-roundup/
+https://nordicapis.com/7-api-design-lessons-world-tour-roundup/
+https://medium.com/hashmapinc/rest-good-practices-for-api-design-881439796dc9
+https://medium.com/hashmapinc/rest-good-practices-for-api-design-881439796dc9
+https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9
