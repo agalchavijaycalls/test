@@ -1,0 +1,639 @@
+{
+  "purchaseorder": {
+    "id": "90495000000005499",
+      object gst "source_of_supply": "",
+      "gstDetails": {"destination_of_supply": "",
+    "purchaseorder_number": "PO-00002"},
+    "createddate": "2019-04-07",
+      dev obj "expected_delivery_date": "",
+    "reference_number": "",
+    "status": "received",
+      receiveobject "received_status": "received",
+      bill object "billed_status": "billed", 
+          vendor obj "vendor_id": "90495000000005456",
+        "vendor_name": "Mr. Jitendra Soni",
+        curr obj "currency_id": "90495000000000064",
+      "currency_code": "INR",
+      del obj "deliveryDetails": "2019-04-07",
+        "is_drop_shipment": false,
+    "is_backorder": false,
+    "is_inclusive_tax": false,
+    "is_reverse_charge_applied": false,
+    "is_pre_gst": false,
+    "line_items": [
+      {
+        "item_id": "90495000000005208",
+        "line_item_id": "90495000000005503",
+        "sku": "ECL-BLU",
+        "account_id": "90495000000000626",
+        "name": "Eclairs-Blue",
+        "warehouse_id": "90495000000005591",
+        "warehouse_name": "testcompany",
+        "description": "",
+        "item_order": 0,
+        "bcy_rate": 120.00,
+        "bcy_rate_formatted": "Rs.120.00",
+        "rate": 120.00,
+        "rate_formatted": "Rs.120.00",
+        "quantity": 1.00,
+        "quantity_received": 1.00,
+        "quantity_cancelled": 0.00,
+        "unit": "box",
+        "item_total": 120.00,
+        "item_total_formatted": "Rs.120.00",
+        "item_total_inclusive_of_tax": 120.00,
+        "item_total_inclusive_of_tax_formatted": "Rs.120.00",
+        "tax_exemption_id": "",
+        "tax_exemption_code": "",
+        "gst_treatment_code": "",
+        "tax_id": "",
+        "tax_name": "",
+        "tax_type": "tax",
+        "tax_percentage": 0,
+        "product_type": "",
+        "reverse_charge_tax_id": "",
+        "tags": [],
+        "image_name": "",
+        "image_type": "",
+        "item_custom_fields": [],
+        "hsn_or_sac": "",
+        "item_type": "inventory",
+        "item_type_formatted": "Inventory Items"
+      }
+    ],
+      "has_qty_cancelled": false,
+    "adjustment": 0.00,
+    "adjustment_description": "Adjustment",
+    "discount_amount": 0.00,
+    "discount": 0.00,
+    "discount_applied_on_amount": 0.00,
+    "is_discount_before_tax": true,
+    "discount_account_id": "",
+    "sub_total": 120.00,
+    "tax_total": 0.00,
+    "total": 120.00,
+    object "taxes": [], should include amount for that type
+    events "comments": [
+      {
+        "comment_id": "90495000000005537",
+        "purchaseorder_id": "90495000000005499",
+        "description": "Purchase order converted to Bill BL-2324234",
+        "commented_by_id": "90495000000005001",
+        "commented_by": "test632company",
+        "comment_type": "system",
+        "date": "2019-04-07",
+        "date_formatted": "07/04/2019 06:54 PM",
+        "date_description": "28 days ago",
+        "time": "6:54 PM",
+        "operation_type": "Added",
+        "transaction_id": "90495000000005529",
+        "transaction_type": "bill"
+      },
+      {
+        "comment_id": "90495000000005521",
+        "purchaseorder_id": "90495000000005499",
+        "description": "Receive PR-00001 created",
+        "commented_by_id": "90495000000005001",
+        "commented_by": "test632company",
+        "comment_type": "system",
+        "date": "2019-04-07",
+        "date_formatted": "07/04/2019 06:53 PM",
+        "date_description": "28 days ago",
+        "time": "6:53 PM",
+        "operation_type": "Updated",
+        "transaction_id": "",
+        "transaction_type": "purchase_receive"
+      },
+      {
+        "comment_id": "90495000000005505",
+        "purchaseorder_id": "90495000000005499",
+        "description": "Purchase Order created for Rs.120.00",
+        "commented_by_id": "90495000000005001",
+        "commented_by": "test632company",
+        "comment_type": "system",
+        "date": "2019-04-07",
+        "date_formatted": "07/04/2019 06:52 PM",
+        "date_description": "28 days ago",
+        "time": "6:52 PM",
+        "operation_type": "Added",
+        "transaction_id": "",
+        "transaction_type": "purchaseorder"
+      }
+    ],
+   obj "billing_address": "",
+    "notes": "",
+    "terms": "",
+    obj "deliveryDetails": "",
+      "delivery_address": {},
+    template obj "template_id": "90495000000000237",
+      "template_name": "Standard Template",
+      "template_type": "standard",
+      "created_time": "2019-04-07T18:52:41+0530",
+      "last_modified_time": "2019-04-07T18:54:48+0530",
+      "html_string": "\n<!--The below style_start tag has to be present as it is used to substring the style content from the body html-->\n\n<!--style_start-->\n  <style type=\"text/css\" media=\"all\">\n \t\n\n  @font-face {\n    font-family: 'WebFont-Ubuntu';\n    src: local(Ubuntu), url(https://fonts.gstatic.com/s/ubuntu/v10/4iCs6KVjbNBYlgoKcg72nU6AF7xm.woff2);\n  }\n\n  .pcs-template {\n  \tfont-family: Ubuntu, 'WebFont-Ubuntu';\n    font-size: 9pt;\n    color: #333333;\n      background:  #ffffff ;\n  }\n\n  .pcs-header-content {\n    font-size: 9pt;\n\tcolor: #333333;\n\tbackground-color: #ffffff;\n  }\n  .pcs-template-body {\n  \tpadding: 0 0.400000in 0 0.550000in;\n  }\n  .pcs-template-footer {\n  \theight: 0.700000in;\n\tfont-size: 6pt;\n\tcolor: #aaaaaa;\n\tpadding: 0 0.400000in 0 0.550000in;\n\tbackground-color: #ffffff;\n  }\n  .pcs-footer-content {\n  word-wrap: break-word;\n  color: #aaaaaa;\n      border-top: 1px solid #adadad;\n  }\n\n  .pcs-label {\n    color: #333333;\n  }\n  .pcs-entity-title {\n    font-size: 28pt;\n    color: #000000;\n  }\n  .pcs-orgname {\n    font-size: 10pt;\n    color: #333333;\n  }\n  .pcs-customer-name {\n    font-size: 9pt;\n    color: #333333;\n  }\n .pcs-itemtable-header {\n    font-size: 9pt;\n    color: #ffffff;\n    background-color: #3c3d3a;\n  }\n  .pcs-itemtable-breakword {\n    word-wrap: break-word;\n  }\n  .pcs-taxtable-header {\n    font-size: 9pt;\n    color: #000;\n    background-color: #f5f4f3;\n  }\n  .itemBody tr {\n    page-break-inside: avoid;\n    page-break-after:auto;\n  }\n  .pcs-item-row {\n    font-size: 9pt;\n    border-bottom: 1px solid #adadad;\n    background-color: #ffffff;\n    color: #000000;\n  }\n  .pcs-item-sku {\n    margin-top: 2px;\n  \tfont-size: 10px;\n  \tcolor: #444444;\n  }\n  .pcs-item-desc {\n      color: #727272;\n      font-size: 9pt;\n   }\n  .pcs-balance {\n    background-color: #f5f4f3;\n    font-size: 9pt;\n    color: #000000;\n  }\n  .pcs-totals {\n    font-size: 9pt;\n    color: #000000;\n    background-color: #ffffff;\n  }\n  .pcs-notes {\n    font-size: 8pt;\n  }\n  .pcs-terms {\n    font-size: 8pt;\n  }\n  .pcs-header-first {\n\tbackground-color: #ffffff;\n\tfont-size: 9pt;\n\tcolor: #333333;\n      height: auto;\n\t}\n\n .pcs-status {\n \tcolor: ;\n\tfont-size: 15pt;\n\tborder: 3px solid ;\n\tpadding: 3px 8px;\n }\n\n @page :first {\n \t@top-center {\n\t\tcontent: element(header);\n\t}\n    margin-top: 0.700000in;\n  }\n\n  .pcs-template-header {\n\tpadding: 0 0.400000in 0 0.550000in;\n    height: 0.700000in;\n  }\n\n  .pcs-template-fill-emptydiv {\n    display: table-cell;\n    content: \" \";\n    width: 100%;\n  }\n\n\n/* Additional styles for RTL compat */\n\n/* Helper Classes */\n\n.inline {\n  display: inline-block;\n}\n.v-top {\n  vertical-align: top;\n}\n.text-align-right {\n  text-align: right;\n}\n.rtl .text-align-right {\n  text-align: left;\n}\n.text-align-left {\n  text-align: left;\n}\n.rtl .text-align-left {\n  text-align: right;\n}\n\n/* Helper Classes End */\n\n.item-details-inline {\n  display: inline-block;\n  margin: 0 10px;\n  vertical-align: top;\n  max-width: 70%;\n}\n\n.total-in-words-container {\n  width: 100%;\n  margin-top: 10px;\n}\n.total-in-words-label {\n  vertical-align: top;\n  padding: 0 10px;\n}\n.total-in-words-value {\n  width: 170px;\n}\n.total-section-label {\n  padding: 5px 10px 5px 0;\n  vertical-align: middle;\n}\n.total-section-value {\n  width: 120px;\n  vertical-align: middle;\n  padding: 10px 10px 10px 5px;\n}\n.rtl .total-section-value {\n  padding: 10px 5px 10px 10px;\n}\n\n.tax-summary-description {\n  color: #727272;\n  font-size: 8pt;\n}\n\n/* Overrides/Patches for RTL compat */\n  .rtl th {\n    text-align: inherit; /* Specifically setting th as inherit for supporting RTL */\n  }\n/* Overrides/Patches End */\n\n  /* Signature styles */\n  .sign-border {\n    width: 200px;\n    border-bottom: 1px solid #000;\n  }\n  .sign-label {\n    display: table-cell;\n    font-size: 10pt;\n    padding-right: 5px;\n  }\n  /* Signature styles End */\n\n  .lineitem-column{\n    padding: 10px 10px 5px 10px;\n    word-wrap: break-word;\n  }\n  </style>\n<!--style_end-->\n\n<div class=\"pcs-template\">\n      <div id=\"header\" class=\"pcs-template-header pcs-header-content\" >\n    \n\n    \n    <div class=\"pcs-template-fill-emptydiv\"></div>\n\n  </div>\n\n   <div class=\"pcs-template-body\">\n     <table style=\"width:100%;table-layout: fixed;\">\n       <tbody>\n         <tr>\n           <td style=\"vertical-align: top; width:50%;\">\n             <div>\n            </div>\n            <span class=\"pcs-orgname\"><b>testcompany</b></span><br />\n<span class=\"pcs-label\">\n              <span id=\"tmp_org_address\" style=\"white-space: pre-wrap;word-wrap: break-word;\">Andaman and Nicobar Islands &#10;India&#10;GSTIN 35AABCS1429B1ZX</span>\n            </span>           </td>\n           <td style=\"vertical-align: top; text-align:right;width:50%;\">\n             <span class=\"pcs-entity-title\">PURCHASE ORDER</span><br />\n             <span class=\"pcs-label\" style=\"font-size: 10pt;\" id=\"tmp_entity_number\"><b># PO-00002</b></span>\n             <div style=\"clear:both;margin-top:20px;\">\n             </div>\n          </td>\n         </tr>\n       </tbody>\n      </table>\n\n     <table style=\"width:100%;margin-top:30px;table-layout:fixed;\">\n     \t<tr>\n     \t<td style=\"width:55%;vertical-align:bottom;word-wrap: break-word;\">\n<div><label class=\"pcs-label\" id=\"tmp_billing_address_label\" style=\"font-size: 10pt;\">Vendor Address</label>\n            <br />\n\t\t\t<span id=\"tmp_billing_address\" style=\"white-space: pre-wrap;\"><strong><span id=\"zb-pdf-customer-detail\" class=\"pcs-customer-name\">Mr. Jitendra Soni</span></strong>\nIndia</span>\n    \t\t</div>           <div style=\"clear:both;width:50%;margin-top: 20px;\">\n             <label class=\"pcs-label\" id=\"tmp_shipping_address_label\" style=\"font-size: 10pt;\">Deliver To</label>\n            <br />\n           <span id=\"tmp_shipping_address\" style=\"white-space: pre-wrap;\">test632company\nAndaman and Nicobar Islands \nIndia\nGSTIN 35AABCS1429B1ZX</span>\n         </div>\n\n     \t</td>\n     \t<td style=\"vertical-align:bottom;width: 45%;\" align=\"right\">\n     \t\t<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"float:right;width: 100%;table-layout: fixed;word-wrap: break-word;\">\n                 <tbody>\n                     <tr>\n                         <td style=\"text-align:right;padding:5px 10px 5px 0px;font-size:10pt;width:60%;\">\n                            <span  class=\"pcs-label\">Date :</span>\n                        </td>\n                        <td style=\"text-align:right;width:40%;\">\n                            <span id=\"tmp_entity_date\">07/04/2019</span>\n                        </td>\n                    </tr>\n\n                    <tr>\n                         <td style=\"text-align:right;padding:5px 10px 5px 0px;font-size: 10pt;width:60%;\">\n                            <span class=\"pcs-label\">Delivery Date :</span>\n                        </td>\n                        <td style=\"text-align:right;width:40%;\">\n                            <span id=\"tmp_due_date\">07/04/2019</span>\n                        </td>\n                    </tr>\n\n                 </tbody>\n              </table>\n     \t</td>\n     \t</tr>\n     </table>\n\n  <table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"pcs-itemtable\" style=\"width:100%;margin-top:20px;table-layout:fixed;\">\n    <thead>\n        <tr style=\"height:32px;\">\n                <td class=\"pcs-itemtable-header pcs-itemtable-breakword\" id=\"\" style=\"padding: 5px 0px 5px 5px;width: 5%;text-align: center;\">\n      #\n    </td>\n    <td class=\"pcs-itemtable-header pcs-itemtable-breakword\" id=\"\" style=\"padding: 5px 10px 5px 20px;width: ;text-align: left;\">\n      Item &amp; Description\n    </td>\n    <td class=\"pcs-itemtable-header pcs-itemtable-breakword\" id=\"\" style=\"padding: 5px 10px 5px 5px;width: 11%;text-align: right;\">\n      Qty\n    </td>\n    <td class=\"pcs-itemtable-header pcs-itemtable-breakword\" id=\"\" style=\"padding: 5px 10px 5px 5px;width: 11%;text-align: right;\">\n      Rate\n    </td>\n    <td class=\"pcs-itemtable-header pcs-itemtable-breakword\" id=\"\" style=\"padding: 5px 10px 5px 5px;width: 15%;text-align: right;\">\n      Amount\n    </td>\n\n        </tr>\n     </thead>\n     <tbody class=\"itemBody\">\n            <tr>\n            <td class=\"pcs-item-row\" style=\"padding: 10px 0 10px 5px;text-align: center;word-wrap: break-word;\" valign=\"top\">\n              1\n            </td>\n            <td class=\"pcs-item-row\" style=\"padding: 10px 0px 10px 20px;\" valign=\"top\">\n\t\t\t\t\t\t\t<div >\n\t\t\t\t\t\t\t<div >\n               <span id=\"tmp_item_name\" style=\"word-wrap: break-word;\">Eclairs-Blue</span><br />\n               \n               <span id=\"tmp_item_description\" class=\"pcs-item-desc\" style=\"white-space: pre-wrap;word-wrap: break-word;\"></span>\n               \n\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t</div>\n            </td>\n\n\n\n\n\n\n                <td class=\"pcs-item-row\" style=\"padding: 10px 10px 5px 10px;text-align:right;word-wrap: break-word;\" valign=\"top\">\n                  <span id=\"tmp_item_qty\">1.00</span>\n                  <div class=\"pcs-item-desc\">box</div>\n                </td>\n\n            <td class=\"pcs-item-row\" style=\"padding: 10px 10px 5px 10px;text-align:right;word-wrap: break-word;\" valign=\"top\">\n                  <span id=\"tmp_item_rate\">120.00</span>\n            </td>\n            <td class=\"pcs-item-row\" style=\"text-align:right;padding: 10px 10px 10px 5px;word-wrap: break-word;\" valign=\"top\">\n              <span id=\"tmp_item_amount\">120.00</span>\n            </td>\n          </tr>\n    </tbody>\n    </table>\n   <div style=\"width: 100%;margin-top: 1px;\">\n    <div style=\"width: 45%;padding: 3px 10px 3px 3px;font-size: 9pt;float: left;\">\n      <div style=\"white-space: pre-wrap;\"></div>\n    </div>\n    <div style=\"width: 50%;float:right;\">\n      <table width=\"100%\" border=\"0\"  cellspacing=\"0\" class=\"pcs-totals\">\n        <tbody>\n          <tr>\n                <td style=\"padding: 5px 10px 5px 0;\" align=\"right\" valign=\"middle\">Sub Total</td>\n                <td style=\"width:120px;padding: 10px 10px 10px 5px;\" align=\"right\" valign=\"middle\" id=\"tmp_subtotal\">120.00</td>\n          </tr>\n\n          <tr>\n            <td style=\"padding: 5px 10px 5px 0;\" align=\"right\" valign=\"middle\"><b>Total</b></td>\n            <td style=\"width:120px;;padding: 10px 10px 10px 5px;\" align=\"right\" valign=\"middle\" id=\"tmp_total\"><b>Rs.120.00</b></td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n    <div style=\"clear: both;\"></div>\n  </div>\n\n        <div style=\"margin-top:30px;\">\n          <label class=\"pcs-label\" style=\"display: table-cell;font-size: 10pt;padding-right: 5px;\">Authorized Signature</label>\n            <div style=\"display: table-cell;\">\n                <div style=\"display: inline-block;width: 200px;border-bottom: 1px solid #000;\"></div>\n                <div></div>\n            </div>\n        </div>\n </div>\n   <div class=\"pcs-template-footer\">\n    <div >\n      \n    </div>  \n  </div>\n\n</div>\n",
+
+    "can_mark_as_bill": false,
+    "can_mark_as_unbill": false,
+    object "purchasereceives": [],
+    object "salesorders": [],
+    object "bills": []
+  }
+}
+
+
+
+
+
+package com.asoft.ainventory.domain;
+
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
+import javax.persistence.*;
+import javax.validation.constraints.*;
+
+import java.io.Serializable;
+import java.time.Instant;
+import java.util.Objects;
+
+import com.asoft.ainventory.domain.enumeration.PurchaseOrderStatus;
+
+/**
+ * A PurchaseOrder.
+ */
+@Entity
+@Table(name = "purchase_order")
+@Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
+public class PurchaseOrder implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+    
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @NotNull
+    @Column(name = "version", nullable = false)
+    private Long version;
+
+    @NotNull
+    @Size(min = 5, max = 20)
+    @Column(name = "order_number", length = 20, nullable = false)
+    private String orderNumber;
+
+    @NotNull
+    @Size(min = 2, max = 20)
+    @Column(name = "ref_no", length = 20, nullable = false)
+    private String refNo;
+
+    @Size(max = 20)
+    @Column(name = "app_label", length = 20)
+    private String label;
+
+    @NotNull
+    @Enumerated(EnumType.STRING)
+    @Column(name = "status", nullable = false)
+    private PurchaseOrderStatus status;
+
+    @Size(max = 100)
+    @Column(name = "status_reason", length = 100)
+    private String statusReason;
+
+    @NotNull
+    @Column(name = "status_updated_date", nullable = false)
+    private Instant statusUpdatedDate;
+
+    @Column(name = "is_tax_inclusive")
+    private Boolean isTaxInclusive;
+
+    @Column(name = "adjustment")
+    private Double adjustment;
+
+    @Size(max = 100)
+    @Column(name = "adjustment_description", length = 100)
+    private String adjustmentDescription;
+
+    @Column(name = "discount_percent")
+    private Integer discountPercent;
+
+    @Column(name = "discount_amount")
+    private Double discountAmount;
+
+    @Size(max = 20)
+    @Column(name = "discount_description", length = 20)
+    private String discountDescription;
+
+    @Column(name = "amount_discount_applied_on")
+    private Double amountDiscountAppliedOn;
+
+    @Column(name = "is_discount_before_tax")
+    private Boolean isDiscountBeforeTax;
+
+    @NotNull
+    @Column(name = "sub_total", nullable = false)
+    private Double subTotal;
+
+    @NotNull
+    @Column(name = "tax_total", nullable = false)
+    private Double taxTotal;
+
+    @NotNull
+    @Column(name = "total", nullable = false)
+    private Double total;
+
+    @Size(max = 200)
+    @Column(name = "notes", length = 200)
+    private String notes;
+
+    @Size(max = 200)
+    @Column(name = "terms", length = 200)
+    private String terms;
+
+    @Column(name = "comments")
+    private String comments;
+
+    @Size(max = 100)
+    @Column(name = "description", length = 100)
+    private String description;
+
+    @ManyToOne(optional = false)
+    @NotNull
+    private PartnerRelation vendor;
+
+    @ManyToOne(optional = false)
+    @NotNull
+    private Currency currency;
+
+    // jhipster-needle-entity-add-field - JHipster will add fields here, do not remove
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getVersion() {
+        return version;
+    }
+
+    public PurchaseOrder version(Long version) {
+        this.version = version;
+        return this;
+    }
+
+    public void setVersion(Long version) {
+        this.version = version;
+    }
+
+    public String getOrderNumber() {
+        return orderNumber;
+    }
+
+    public PurchaseOrder orderNumber(String orderNumber) {
+        this.orderNumber = orderNumber;
+        return this;
+    }
+
+    public void setOrderNumber(String orderNumber) {
+        this.orderNumber = orderNumber;
+    }
+
+    public String getRefNo() {
+        return refNo;
+    }
+
+    public PurchaseOrder refNo(String refNo) {
+        this.refNo = refNo;
+        return this;
+    }
+
+    public void setRefNo(String refNo) {
+        this.refNo = refNo;
+    }
+
+    public String getLabel() {
+        return label;
+    }
+
+    public PurchaseOrder label(String label) {
+        this.label = label;
+        return this;
+    }
+
+    public void setLabel(String label) {
+        this.label = label;
+    }
+
+    public PurchaseOrderStatus getStatus() {
+        return status;
+    }
+
+    public PurchaseOrder status(PurchaseOrderStatus status) {
+        this.status = status;
+        return this;
+    }
+
+    public void setStatus(PurchaseOrderStatus status) {
+        this.status = status;
+    }
+
+    public String getStatusReason() {
+        return statusReason;
+    }
+
+    public PurchaseOrder statusReason(String statusReason) {
+        this.statusReason = statusReason;
+        return this;
+    }
+
+    public void setStatusReason(String statusReason) {
+        this.statusReason = statusReason;
+    }
+
+    public Instant getStatusUpdatedDate() {
+        return statusUpdatedDate;
+    }
+
+    public PurchaseOrder statusUpdatedDate(Instant statusUpdatedDate) {
+        this.statusUpdatedDate = statusUpdatedDate;
+        return this;
+    }
+
+    public void setStatusUpdatedDate(Instant statusUpdatedDate) {
+        this.statusUpdatedDate = statusUpdatedDate;
+    }
+
+    public Boolean isIsTaxInclusive() {
+        return isTaxInclusive;
+    }
+
+    public PurchaseOrder isTaxInclusive(Boolean isTaxInclusive) {
+        this.isTaxInclusive = isTaxInclusive;
+        return this;
+    }
+
+    public void setIsTaxInclusive(Boolean isTaxInclusive) {
+        this.isTaxInclusive = isTaxInclusive;
+    }
+
+    public Double getAdjustment() {
+        return adjustment;
+    }
+
+    public PurchaseOrder adjustment(Double adjustment) {
+        this.adjustment = adjustment;
+        return this;
+    }
+
+    public void setAdjustment(Double adjustment) {
+        this.adjustment = adjustment;
+    }
+
+    public String getAdjustmentDescription() {
+        return adjustmentDescription;
+    }
+
+    public PurchaseOrder adjustmentDescription(String adjustmentDescription) {
+        this.adjustmentDescription = adjustmentDescription;
+        return this;
+    }
+
+    public void setAdjustmentDescription(String adjustmentDescription) {
+        this.adjustmentDescription = adjustmentDescription;
+    }
+
+    public Integer getDiscountPercent() {
+        return discountPercent;
+    }
+
+    public PurchaseOrder discountPercent(Integer discountPercent) {
+        this.discountPercent = discountPercent;
+        return this;
+    }
+
+    public void setDiscountPercent(Integer discountPercent) {
+        this.discountPercent = discountPercent;
+    }
+
+    public Double getDiscountAmount() {
+        return discountAmount;
+    }
+
+    public PurchaseOrder discountAmount(Double discountAmount) {
+        this.discountAmount = discountAmount;
+        return this;
+    }
+
+    public void setDiscountAmount(Double discountAmount) {
+        this.discountAmount = discountAmount;
+    }
+
+    public String getDiscountDescription() {
+        return discountDescription;
+    }
+
+    public PurchaseOrder discountDescription(String discountDescription) {
+        this.discountDescription = discountDescription;
+        return this;
+    }
+
+    public void setDiscountDescription(String discountDescription) {
+        this.discountDescription = discountDescription;
+    }
+
+    public Double getAmountDiscountAppliedOn() {
+        return amountDiscountAppliedOn;
+    }
+
+    public PurchaseOrder amountDiscountAppliedOn(Double amountDiscountAppliedOn) {
+        this.amountDiscountAppliedOn = amountDiscountAppliedOn;
+        return this;
+    }
+
+    public void setAmountDiscountAppliedOn(Double amountDiscountAppliedOn) {
+        this.amountDiscountAppliedOn = amountDiscountAppliedOn;
+    }
+
+    public Boolean isIsDiscountBeforeTax() {
+        return isDiscountBeforeTax;
+    }
+
+    public PurchaseOrder isDiscountBeforeTax(Boolean isDiscountBeforeTax) {
+        this.isDiscountBeforeTax = isDiscountBeforeTax;
+        return this;
+    }
+
+    public void setIsDiscountBeforeTax(Boolean isDiscountBeforeTax) {
+        this.isDiscountBeforeTax = isDiscountBeforeTax;
+    }
+
+    public Double getSubTotal() {
+        return subTotal;
+    }
+
+    public PurchaseOrder subTotal(Double subTotal) {
+        this.subTotal = subTotal;
+        return this;
+    }
+
+    public void setSubTotal(Double subTotal) {
+        this.subTotal = subTotal;
+    }
+
+    public Double getTaxTotal() {
+        return taxTotal;
+    }
+
+    public PurchaseOrder taxTotal(Double taxTotal) {
+        this.taxTotal = taxTotal;
+        return this;
+    }
+
+    public void setTaxTotal(Double taxTotal) {
+        this.taxTotal = taxTotal;
+    }
+
+    public Double getTotal() {
+        return total;
+    }
+
+    public PurchaseOrder total(Double total) {
+        this.total = total;
+        return this;
+    }
+
+    public void setTotal(Double total) {
+        this.total = total;
+    }
+
+    public String getNotes() {
+        return notes;
+    }
+
+    public PurchaseOrder notes(String notes) {
+        this.notes = notes;
+        return this;
+    }
+
+    public void setNotes(String notes) {
+        this.notes = notes;
+    }
+
+    public String getTerms() {
+        return terms;
+    }
+
+    public PurchaseOrder terms(String terms) {
+        this.terms = terms;
+        return this;
+    }
+
+    public void setTerms(String terms) {
+        this.terms = terms;
+    }
+
+    public String getComments() {
+        return comments;
+    }
+
+    public PurchaseOrder comments(String comments) {
+        this.comments = comments;
+        return this;
+    }
+
+    public void setComments(String comments) {
+        this.comments = comments;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public PurchaseOrder description(String description) {
+        this.description = description;
+        return this;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public PartnerRelation getVendor() {
+        return vendor;
+    }
+
+    public PurchaseOrder vendor(PartnerRelation partnerRelation) {
+        this.vendor = partnerRelation;
+        return this;
+    }
+
+    public void setVendor(PartnerRelation partnerRelation) {
+        this.vendor = partnerRelation;
+    }
+
+    public Currency getCurrency() {
+        return currency;
+    }
+
+    public PurchaseOrder currency(Currency currency) {
+        this.currency = currency;
+        return this;
+    }
+
+    public void setCurrency(Currency currency) {
+        this.currency = currency;
+    }
+    // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here, do not remove
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        PurchaseOrder purchaseOrder = (PurchaseOrder) o;
+        if (purchaseOrder.getId() == null || getId() == null) {
+            return false;
+        }
+        return Objects.equals(getId(), purchaseOrder.getId());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(getId());
+    }
+
+    @Override
+    public String toString() {
+        return "PurchaseOrder{" +
+            "id=" + getId() +
+            ", version=" + getVersion() +
+            ", orderNumber='" + getOrderNumber() + "'" +
+            ", refNo='" + getRefNo() + "'" +
+            ", label='" + getLabel() + "'" +
+            ", status='" + getStatus() + "'" +
+            ", statusReason='" + getStatusReason() + "'" +
+            ", statusUpdatedDate='" + getStatusUpdatedDate() + "'" +
+            ", isTaxInclusive='" + isIsTaxInclusive() + "'" +
+            ", adjustment=" + getAdjustment() +
+            ", adjustmentDescription='" + getAdjustmentDescription() + "'" +
+            ", discountPercent=" + getDiscountPercent() +
+            ", discountAmount=" + getDiscountAmount() +
+            ", discountDescription='" + getDiscountDescription() + "'" +
+            ", amountDiscountAppliedOn=" + getAmountDiscountAppliedOn() +
+            ", isDiscountBeforeTax='" + isIsDiscountBeforeTax() + "'" +
+            ", subTotal=" + getSubTotal() +
+            ", taxTotal=" + getTaxTotal() +
+            ", total=" + getTotal() +
+            ", notes='" + getNotes() + "'" +
+            ", terms='" + getTerms() + "'" +
+            ", comments='" + getComments() + "'" +
+            ", description='" + getDescription() + "'" +
+            "}";
+    }
+}
